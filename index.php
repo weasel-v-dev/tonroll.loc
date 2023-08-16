@@ -89,7 +89,7 @@
             <div class="trl-divider  trl-bg-white"></div>
         </div>
         <div class="trl-bg rounded-5 py-2 px-2 d-flex  justify-content-center trl-players-bets__list overflow-auto"
-             style="max-height: 195px">
+             style="height: calc(100vh - 628px); min-height: 103px">
             <div class="row g-0">
                 <div class="col-6">
                     <div class="trl-player-bet rounded-5 px-2 py-1 d-flex align-items-center trl-bg-light-2 mx-1 my-1">

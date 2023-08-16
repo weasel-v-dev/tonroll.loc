@@ -67,7 +67,7 @@
                 </div>
             </div>
             <div class="d-flex justify-content-between">
-                <div class="my-2 me-2 fw-bold font-14">Последние 100 игр:</div>
+                <div class="mt-2 me-2 fw-bold font-14" style="margin-bottom: -2px">Последние 100 игр:</div>
                 <div class="d-flex">
                     <div class="trl-roll__el-history-wrap d-flex align-items-center">
                         <div class="trl-color-blue fw-bold font-14 pe-1 lh-1">10</div>
@@ -89,7 +89,7 @@
             <div class="trl-divider  trl-bg-white"></div>
         </div>
         <div class="trl-bg rounded-5 py-2 px-2 d-flex  justify-content-center trl-players-bets__list overflow-auto"
-             style="height: calc(100vh - 628px); min-height: 103px">
+             style="height: calc(100vh - 507px); min-height: 103px">
             <div class="row g-0" style="height: fit-content">
                 <div class="col-6">
                     <div class="trl-player-bet rounded-5 px-2 py-1 d-flex align-items-center trl-bg-light-2 mx-1 my-1">

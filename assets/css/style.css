@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+}
+
+.trl-bg {
+    background-color: #303843;
+    box-shadow: 2px 2px 2px rgba(0, 0,0,0.1);
+}
+.trl-bg-light {
+    background-color: #46505d;
+}
+.trl-bg-dark {
+    background-color: #1d2733;
+}
+.trl-bg-white {
+    background-color: #6d7c8b;
+}
+.trl-bg-light-2 {
+    background-color: #424c58;
+    box-shadow: 2px 2px 2px rgba(0, 0,0,0.1);
+}
+
+
+
+.trl-separator {
+    width: 1px;
+    height: 24px;
+}
+
+.rounded-5 {
+    border-radius: 15px;
+}
+
+.trl-avatar {
+    width: 54px;
+    height: 54px;
+}
+
+
+
+.trl-bg-green-blue {
+    background-color: #48a1af;
+}
+
+
+
+.trl-color {
+    color: #798998;
+}
+
+.trl-jack-pot {
+    border: 2px solid #28a142;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    letter-spacing: 5px;
+}
+
+.trl-jack-pot__name {
+    color: #327ae8;
+}
+
+.trl-jack-pot__amount {
+    color: #fee300;
+}
+
+.trl-roll {
+    padding: 14px;
+}
+
+.trl-roll__list {
+    display: flex;
+    justify-content: space-between;
+    -ms-overflow-style: none;
+    overscroll-behavior: contain;
+    scrollbar-width: none;
+    overflow: auto;
+
+}
+
+.trl-roll__el {
+    height: 80px;
+    width: 80px;
+
+}
+
+.trl-roll__el-wrap:not(:last-child) {
+    margin-right: 11px;
+}
+.trl-roll__el-history-wrap:not(:last-child) {
+    margin-right: 9px;
+}
+.trl-roll__el-history {
+    height: 10px;
+    width: 36px;
+}
+.trl-color-blue{
+    color: #3277e7;
+}
+.trl-color-green{
+    color: #269840;
+}
+.trl-color-red{
+    color: #ff3b3f;
+}
+.trl-color-yellow{
+    color: rgb(245, 172, 0);
+}
+
+.trl-gr-yellow {
+    background: rgb(245, 172, 0);
+    background: linear-gradient(57deg, #ffbc52, #ffb400);
+}
+.trl-gr-blue {
+    background: rgb(23,173,252);
+    background: linear-gradient(57deg, rgba(23,173,252,1), rgba(51,117,230,1));
+}
+.trl-gr-green {
+    background: rgb(50,228,78);
+    background: linear-gradient(57deg, rgba(50,228,78,1), rgba(37,144,62,1));
+}
+
+.trl-gr-red {
+    background: rgb(254,101,104);
+    background: linear-gradient(57deg, rgba(254,101,104,1), rgba(255,59,63,1));
+}
+.font-14 {
+    font-size: 14px;
+}
+.font-20 {
+    font-size: 20px;
+}
+.font-22 {
+    font-size: 22px;
+}
+.font-30 {
+    font-size: 30px;
+}
+.trl-roll__list::-webkit-scrollbar, body::-webkit-scrollbar, .trl-players-bets__list::-webkit-scrollbar {
+    display: none;
+}
+
+.trl-progressbar {
+    border: 2px solid #1b3352;
+    height: 24px;
+}
+.trl-progressbar__filled {
+    height: 100%;
+
+}
+
+.trl-divider {
+    height: 1px;
+    width: 100%;
+}
+
+.nowrap{
+    white-space: nowrap;
+}
+
+
+
+.trl-player-bet__avatar {
+    width: 23px;
+    height: 23px;
+}
+.trl-player-bet__cell  {
+    width: 20px;
+    height: 20px;
+}
+.trl-player-bet__name {
+    width: 85px;
+}
+.font-18 {
+    font-size: 18px;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+.trl-menu {
+    height: 60px;
+}
+
+.trl-menu__item {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.0);
+    transition: background-color, .3s ease;
+}
+
+.trl-menu__item:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+
+.trl-menu__item img {
+    width: 24px;
+}
+
+.trl-list-none {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 450px) {
+    .trl-players-bets__list .col-6 {
+        flex-basis: 100%;
+        width: 100%;
+    }
+}
+@media  (max-width: 400px) {
+    .trl-avatar-header-icon, .trl-avatar {
+        width: 34px;
+    }
+    .trl-avatar {
+        height: 34px;
+    }
+    .trl-avatar img {
+        width: 100%;
+    }
+    .font-18 {
+        font-size: 14px;
+    }
+    .trl-roll__el-history {
+        width: 20px;
+    }
+}
+
+
+@media  (max-width: 350px) {
+    .trl-roll__el-history {
+        width: 10px;
+    }
+}
+
+.font-12 {
+    font-size: 12px;
+}

@@ -59,7 +59,7 @@ body {
 .trl-jack-pot {
     border: 2px solid #28a142;
     font-family: 'Montserrat', sans-serif;
-    font-size: 22px;
+    font-size: 18px;
     letter-spacing: 5px;
 }
 
@@ -246,6 +246,9 @@ a {
 @media  (max-width: 350px) {
     .trl-roll__el-history {
         width: 10px;
+    }
+    .font-20 {
+        font-size: 17px;
     }
 }
 

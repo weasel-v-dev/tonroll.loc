@@ -185,6 +185,15 @@ input {
     height: 206px;
 }
 
+@media (min-width: 768px) {
+    .trl-menu {
+        height: 117px;
+    }
+}
+.btn-bet {
+    white-space: nowrap;
+}
+
 .rounded-4 {
     border-radius: 10px;
 }

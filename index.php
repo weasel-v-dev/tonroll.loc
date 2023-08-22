@@ -89,7 +89,7 @@
             <div class="trl-divider  trl-bg-white"></div>
         </div>
         <div class="trl-bg rounded-5 py-2 px-2 d-flex  justify-content-center trl-players-bets__list overflow-auto"
-             style="height: calc(100vh - 527px);min-height: 103px">
+             style="height: calc(100vh - 512px);min-height: 103px">
             <div class="row g-0" style="height: fit-content">
                 <div class="col-6">
                     <div class="trl-player-bet rounded-5 px-2 py-1 d-flex align-items-center trl-bg-light-2 mx-1 my-1">
@@ -266,8 +266,8 @@
     </div>
 </div>
 <div class="position-fixed start-0 bottom-0 w-100 trl-menu">
-    <div class="px-2">
-        <div class=" trl-bg rounded-5 px-3  py-2 d-md-flex">
+    <div class="container px-2">
+        <div class=" trl-bg rounded-5 px-2  py-2 d-md-flex">
             <div class="d-flex me-md-3 justify-content-center align-items-center">
                 <div>
                     <div class="small-btn rounded-5 py-1 px-3 fw-bold trl-bg-light-2 font-18">Min</div>

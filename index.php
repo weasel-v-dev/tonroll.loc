@@ -20,7 +20,7 @@
                 <img src="/assets/img/armor.png" class="ps-2 trl-avatar-header-icon" alt="">
             </div>
             <div class="trl-avatar trl-bg-green-blue d-flex justify-content-center align-items-center rounded-4">
-                <img src="/assets/img/plug/avatar.png" alt="">
+                <img src="/assets/img/plug/avatar.png" alt="" width="34px" height="34px">
             </div>
 
 
@@ -273,19 +273,19 @@
                     <div class="small-btn rounded-5 py-1 px-3 fw-bold trl-bg-light-2 font-18">Min</div>
                 </div>
                 <div class="mx-3">
-                    <input type="text" class="w-100 rounded-5 text-center font-22 text-uppercase text-white fw-bold trl-bg-light-2">
+                    <input type="text" class="w-100 rounded-4 text-center font-22 text-uppercase text-white fw-bold trl-bg-light-2">
                 </div>
                 <div>
-                    <div class="small-btn rounded-5 py-1 px-3 fw-bold trl-bg-light-2 font-18">Max</div>
+                    <div class="small-btn rounded-4 py-1 px-3 fw-bold trl-bg-light-2 font-18">Max</div>
                 </div>
             </div>
             <div class="d-flex mt-2 mt-md-0 me-md-2">
-                <div class="btn-bet me-2 rounded-3 fw-bold text-center font-20 px-3 py-1 w-50 trl-gr-blue">Bet x2</div>
-                <div class="btn-bet  rounded-3 fw-bold text-center font-20 px-3 py-1 w-50 trl-gr-red">Bet x2</div>
+                <div class="btn-bet me-2 rounded-4 fw-bold text-center font-20 px-3 py-1 w-50 trl-gr-blue">Bet x2</div>
+                <div class="btn-bet  rounded-4 fw-bold text-center font-20 px-3 py-1 w-50 trl-gr-red">Bet x2</div>
             </div>
             <div class="d-flex mt-2 mt-md-0">
-                <div class="btn-bet rounded-3 me-2 fw-bold text-center font-20 px-3 py-1 w-50 trl-gr-yellow">Bet x2</div>
-                <div class="btn-bet rounded-3 fw-bold text-center font-20 px-3 py-1 w-50 trl-gr-green">Bet x2</div>
+                <div class="btn-bet rounded-4 me-2 fw-bold text-center font-20 px-3 py-1 w-50 trl-gr-yellow">Bet x2</div>
+                <div class="btn-bet rounded-4 fw-bold text-center font-20 px-3 py-1 w-50 trl-gr-green">Bet x2</div>
             </div>
         </div>
     </div>

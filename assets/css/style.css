@@ -40,8 +40,8 @@ body {
 }
 
 .trl-avatar {
-    width: 34px;
-    height: 34px;
+    /*width: 34px;*/
+    /*height: 34px;*/
     overflow: hidden;
 }
 
@@ -224,7 +224,7 @@ a {
         flex-basis: 100%;
         width: 100%;
     }
-    .trl-avatar-header-icon, .trl-avatar {
+    .trl-avatar-header-icon {
         width: 30px;
     }
     .trl-avatar img {

@@ -40,8 +40,9 @@ body {
 }
 
 .trl-avatar {
-    width: 54px;
-    height: 54px;
+    width: 34px;
+    height: 34px;
+    overflow: hidden;
 }
 
 
@@ -69,10 +70,6 @@ body {
 
 .trl-jack-pot__amount {
     color: #fee300;
-}
-
-.trl-roll {
-    padding: 14px;
 }
 
 .trl-roll__list {
@@ -171,10 +168,7 @@ body {
     width: 23px;
     height: 23px;
 }
-.trl-player-bet__cell  {
-    width: 20px;
-    height: 20px;
-}
+
 .trl-player-bet__name {
     width: 85px;
 }
@@ -188,7 +182,11 @@ input {
 }
 
 .trl-menu {
-    height: 60px;
+    height: 206px;
+}
+
+.rounded-4 {
+    border-radius: 10px;
 }
 
 .trl-menu__item {
@@ -218,18 +216,16 @@ a {
     text-decoration: none;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 400px) {
+
+}
+@media  (max-width: 400px) {
     .trl-players-bets__list .col-6 {
         flex-basis: 100%;
         width: 100%;
     }
-}
-@media  (max-width: 400px) {
     .trl-avatar-header-icon, .trl-avatar {
-        width: 34px;
-    }
-    .trl-avatar {
-        height: 34px;
+        width: 30px;
     }
     .trl-avatar img {
         width: 100%;

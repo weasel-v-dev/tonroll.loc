@@ -260,3 +260,9 @@ a {
 .font-12 {
     font-size: 12px;
 }
+.nav-pills .active span {
+    font-weight: bold;
+    text-shadow: 1px 0 1px white;
+}
+
+

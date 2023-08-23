@@ -39,7 +39,8 @@
             <span style="margin-top: 1px"
                   class="text-uppercase lh-1 font-14 position-absolute start-50 top-50 translate-middle">rolling in 12.35</span>
         </div>
-        <div class="trl-roll p-2 trl-bg mt-2 rounded-5">
+        <div class="trl-roll p-2 trl-bg mt-2 rounded-5 position-relative">
+            <img class="position-absolute translate-middle start-50 top-0 " src="/assets/img/pointer.png" width="15px" height="15px">
             <div class="trl-roll__list">
                 <div class="trl-roll__el-wrap">
                     <div class="trl-roll__el trl-gr-green rounded-5"></div>
@@ -66,7 +67,7 @@
                     <div class="trl-roll__el trl-gr-red rounded-5"></div>
                 </div>
             </div>
-            <div class="d-flex mt-2 ">
+            <div class="d-flex mt-2 justify-content-between justify-content-lg-start">
                 <div class="me-2 fw-bold font-14" style="margin-bottom: -2px">Последние 100 игр:</div>
                 <div class="d-flex">
                     <div class="trl-roll__el-history-wrap d-flex align-items-center">
@@ -84,178 +85,215 @@
                 </div>
             </div>
         </div>
-        <div class="d-flex align-items-center">
-            <div class="my-2 fw-bold nowrap pe-3 font-14">Игроки/Ставки</div>
-            <div class="trl-divider  trl-bg-white"></div>
-        </div>
-        <div class="trl-bg rounded-5 py-2 px-2 d-flex  justify-content-center trl-players-bets__list overflow-auto"
-             style="height: calc(100vh - 512px);min-height: 103px">
-            <div class="row g-0" style="height: fit-content">
-                <div class="col-6">
-                    <div class="trl-player-bet rounded-5 px-2 py-1 d-flex align-items-center trl-bg-light-2 mx-1 my-1">
-                        <div class="me-1">
-                            <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
+        <ul class="nav nav-pills " id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <div class="py-2 nowrap me-3 font-14 active"  id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                   <span> Игроки/Ставки</span>
+                </div>
+            </li>
+            <li class="nav-item" role="presentation">
+                <div class="py-2 nowrap font-14"  id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                    <span>История</span>
+                </div>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                <div class="trl-bg rounded-5 py-2 px-2 d-flex  justify-content-center trl-players-bets__list overflow-auto"
+                     style="height: calc(100vh - 512px);min-height: 103px">
+                    <div class="container">
+                        <div class="row g-0" style="height: fit-content">
+                        <div class="col-6">
+                            <div class="trl-player-bet rounded-5 px-2 py-1 d-flex align-items-center trl-bg-light-2 mx-1 my-1">
+                                <div class="me-1">
+                                    <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
+                                </div>
+                                <div class="me-2">
+                                    <div class="trl-player-bet__name">Дмитрий Вол...</div>
+                                    <div>100 000</div>
+                                </div>
+                                <div class="ms-auto">
+                                    <div class="trl-gr-red trl-player-bet__cell p-1 rounded-1">X12</div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="me-2">
-                            <div class="trl-player-bet__name">Дмитрий Вол...</div>
-                            <div>100 000</div>
+                        <div class="col-6">
+                            <div class="trl-player-bet rounded-5 px-2 py-1 d-flex align-items-center trl-bg-light-2 mx-1 my-1">
+                                <div class="me-1">
+                                    <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
+                                </div>
+                                <div class="me-2">
+                                    <div class="trl-player-bet__name">Дмитрий Вол...</div>
+                                    <div>100 000</div>
+                                </div>
+                                <div class="ms-auto">
+                                    <div class="trl-gr-blue trl-player-bet__cell p-1 rounded-1">X12</div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="ms-auto">
-                            <div class="trl-gr-red trl-player-bet__cell p-1 rounded-1">X12</div>
+                        <div class="col-6">
+                            <div class="trl-player-bet rounded-5 px-2 py-1 d-flex align-items-center trl-bg-light-2 mx-1 my-1">
+                                <div class="me-1">
+                                    <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
+                                </div>
+                                <div class="me-2">
+                                    <div class="trl-player-bet__name">Дмитрий Вол...</div>
+                                    <div>100 000</div>
+                                </div>
+                                <div class="ms-auto">
+                                    <div class="trl-gr-yellow trl-player-bet__cell p-1 rounded-1">X12</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="trl-player-bet rounded-5 px-2 py-1 d-flex align-items-center trl-bg-light-2 mx-1 my-1">
+                                <div class="me-1">
+                                    <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
+                                </div>
+                                <div class="me-2">
+                                    <div class="trl-player-bet__name">Дмитрий Вол...</div>
+                                    <div>100 000</div>
+                                </div>
+                                <div class="ms-auto">
+                                    <div class="trl-gr-green trl-player-bet__cell p-1 rounded-1">X12</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="trl-player-bet rounded-5 px-2 py-1 d-flex align-items-center trl-bg-light-2 mx-1 my-1">
+                                <div class="me-1">
+                                    <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
+                                </div>
+                                <div class="me-2">
+                                    <div class="trl-player-bet__name">Дмитрий Вол...</div>
+                                    <div>100 000</div>
+                                </div>
+                                <div class="ms-auto">
+                                    <div class="trl-gr-red trl-player-bet__cell p-1 rounded-1">X12</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="trl-player-bet rounded-5 px-2 py-1 d-flex align-items-center trl-bg-light-2 mx-1 my-1">
+                                <div class="me-1">
+                                    <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
+                                </div>
+                                <div class="me-2">
+                                    <div class="trl-player-bet__name">Дмитрий Вол...</div>
+                                    <div>100 000</div>
+                                </div>
+                                <div class="ms-auto">
+                                    <div class="trl-gr-blue trl-player-bet__cell p-1 rounded-1">X12</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="trl-player-bet rounded-5 px-2 py-1 d-flex align-items-center trl-bg-light-2 mx-1 my-1">
+                                <div class="me-1">
+                                    <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
+                                </div>
+                                <div class="me-2">
+                                    <div class="trl-player-bet__name">Дмитрий Вол...</div>
+                                    <div>100 000</div>
+                                </div>
+                                <div class="ms-auto">
+                                    <div class="trl-gr-yellow trl-player-bet__cell p-1 rounded-1">X12</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="trl-player-bet rounded-5 px-2 py-1 d-flex align-items-center trl-bg-light-2 mx-1 my-1">
+                                <div class="me-1">
+                                    <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
+                                </div>
+                                <div class="me-2">
+                                    <div class="trl-player-bet__name">Дмитрий Вол...</div>
+                                    <div>100 000</div>
+                                </div>
+                                <div class="ms-auto">
+                                    <div class="trl-gr-green trl-player-bet__cell p-1 rounded-1">X12</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="trl-player-bet rounded-5 px-2 py-1 d-flex align-items-center trl-bg-light-2 mx-1 my-1">
+                                <div class="me-1">
+                                    <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
+                                </div>
+                                <div class="me-2">
+                                    <div class="trl-player-bet__name">Дмитрий Вол...</div>
+                                    <div>100 000</div>
+                                </div>
+                                <div class="ms-auto">
+                                    <div class="trl-gr-red trl-player-bet__cell p-1 rounded-1">X12</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="trl-player-bet rounded-5 px-2 py-1 d-flex align-items-center trl-bg-light-2 mx-1 my-1">
+                                <div class="me-1">
+                                    <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
+                                </div>
+                                <div class="me-2">
+                                    <div class="trl-player-bet__name">Дмитрий Вол...</div>
+                                    <div>100 000</div>
+                                </div>
+                                <div class="ms-auto">
+                                    <div class="trl-gr-blue trl-player-bet__cell p-1 rounded-1">X12</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="trl-player-bet rounded-5 px-2 py-1 d-flex align-items-center trl-bg-light-2 mx-1 my-1">
+                                <div class="me-1">
+                                    <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
+                                </div>
+                                <div class="me-2">
+                                    <div class="trl-player-bet__name">Дмитрий Вол...</div>
+                                    <div>100 000</div>
+                                </div>
+                                <div class="ms-auto">
+                                    <div class="trl-gr-yellow trl-player-bet__cell p-1 rounded-1">X12</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="trl-player-bet rounded-5 px-2 py-1 d-flex align-items-center trl-bg-light-2 mx-1 my-1">
+                                <div class="me-1">
+                                    <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
+                                </div>
+                                <div class="me-2">
+                                    <div class="trl-player-bet__name">Дмитрий Вол...</div>
+                                    <div>100 000</div>
+                                </div>
+                                <div class="ms-auto">
+                                    <div class="trl-gr-green trl-player-bet__cell p-1 rounded-1">X12</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-6">
-                    <div class="trl-player-bet rounded-5 px-2 py-1 d-flex align-items-center trl-bg-light-2 mx-1 my-1">
-                        <div class="me-1">
-                            <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
-                        </div>
-                        <div class="me-2">
-                            <div class="trl-player-bet__name">Дмитрий Вол...</div>
-                            <div>100 000</div>
-                        </div>
-                        <div class="ms-auto">
-                            <div class="trl-gr-blue trl-player-bet__cell p-1 rounded-1">X12</div>
-                        </div>
                     </div>
                 </div>
-                <div class="col-6">
-                    <div class="trl-player-bet rounded-5 px-2 py-1 d-flex align-items-center trl-bg-light-2 mx-1 my-1">
-                        <div class="me-1">
-                            <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
-                        </div>
-                        <div class="me-2">
-                            <div class="trl-player-bet__name">Дмитрий Вол...</div>
-                            <div>100 000</div>
-                        </div>
-                        <div class="ms-auto">
-                            <div class="trl-gr-yellow trl-player-bet__cell p-1 rounded-1">X12</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="trl-player-bet rounded-5 px-2 py-1 d-flex align-items-center trl-bg-light-2 mx-1 my-1">
-                        <div class="me-1">
-                            <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
-                        </div>
-                        <div class="me-2">
-                            <div class="trl-player-bet__name">Дмитрий Вол...</div>
-                            <div>100 000</div>
-                        </div>
-                        <div class="ms-auto">
-                            <div class="trl-gr-green trl-player-bet__cell p-1 rounded-1">X12</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="trl-player-bet rounded-5 px-2 py-1 d-flex align-items-center trl-bg-light-2 mx-1 my-1">
-                        <div class="me-1">
-                            <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
-                        </div>
-                        <div class="me-2">
-                            <div class="trl-player-bet__name">Дмитрий Вол...</div>
-                            <div>100 000</div>
-                        </div>
-                        <div class="ms-auto">
-                            <div class="trl-gr-red trl-player-bet__cell p-1 rounded-1">X12</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="trl-player-bet rounded-5 px-2 py-1 d-flex align-items-center trl-bg-light-2 mx-1 my-1">
-                        <div class="me-1">
-                            <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
-                        </div>
-                        <div class="me-2">
-                            <div class="trl-player-bet__name">Дмитрий Вол...</div>
-                            <div>100 000</div>
-                        </div>
-                        <div class="ms-auto">
-                            <div class="trl-gr-blue trl-player-bet__cell p-1 rounded-1">X12</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="trl-player-bet rounded-5 px-2 py-1 d-flex align-items-center trl-bg-light-2 mx-1 my-1">
-                        <div class="me-1">
-                            <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
-                        </div>
-                        <div class="me-2">
-                            <div class="trl-player-bet__name">Дмитрий Вол...</div>
-                            <div>100 000</div>
-                        </div>
-                        <div class="ms-auto">
-                            <div class="trl-gr-yellow trl-player-bet__cell p-1 rounded-1">X12</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="trl-player-bet rounded-5 px-2 py-1 d-flex align-items-center trl-bg-light-2 mx-1 my-1">
-                        <div class="me-1">
-                            <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
-                        </div>
-                        <div class="me-2">
-                            <div class="trl-player-bet__name">Дмитрий Вол...</div>
-                            <div>100 000</div>
-                        </div>
-                        <div class="ms-auto">
-                            <div class="trl-gr-green trl-player-bet__cell p-1 rounded-1">X12</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="trl-player-bet rounded-5 px-2 py-1 d-flex align-items-center trl-bg-light-2 mx-1 my-1">
-                        <div class="me-1">
-                            <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
-                        </div>
-                        <div class="me-2">
-                            <div class="trl-player-bet__name">Дмитрий Вол...</div>
-                            <div>100 000</div>
-                        </div>
-                        <div class="ms-auto">
-                            <div class="trl-gr-red trl-player-bet__cell p-1 rounded-1">X12</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="trl-player-bet rounded-5 px-2 py-1 d-flex align-items-center trl-bg-light-2 mx-1 my-1">
-                        <div class="me-1">
-                            <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
-                        </div>
-                        <div class="me-2">
-                            <div class="trl-player-bet__name">Дмитрий Вол...</div>
-                            <div>100 000</div>
-                        </div>
-                        <div class="ms-auto">
-                            <div class="trl-gr-blue trl-player-bet__cell p-1 rounded-1">X12</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="trl-player-bet rounded-5 px-2 py-1 d-flex align-items-center trl-bg-light-2 mx-1 my-1">
-                        <div class="me-1">
-                            <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
-                        </div>
-                        <div class="me-2">
-                            <div class="trl-player-bet__name">Дмитрий Вол...</div>
-                            <div>100 000</div>
-                        </div>
-                        <div class="ms-auto">
-                            <div class="trl-gr-yellow trl-player-bet__cell p-1 rounded-1">X12</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="trl-player-bet rounded-5 px-2 py-1 d-flex align-items-center trl-bg-light-2 mx-1 my-1">
-                        <div class="me-1">
-                            <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
-                        </div>
-                        <div class="me-2">
-                            <div class="trl-player-bet__name">Дмитрий Вол...</div>
-                            <div>100 000</div>
-                        </div>
-                        <div class="ms-auto">
-                            <div class="trl-gr-green trl-player-bet__cell p-1 rounded-1">X12</div>
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                <div class="trl-bg rounded-5 py-2 px-2 d-flex  justify-content-center trl-players-bets__list overflow-auto"
+                     style="height: calc(100vh - 512px);min-height: 103px">
+                    <div class="container">
+                        <div class="row g-0" style="height: fit-content">
+                            <div class="col-6">
+                                <div class="trl-player-bet rounded-5 px-2 py-1 d-flex align-items-center trl-bg-light-2 mx-1 my-1">
+                                    <div class="me-1">
+                                        <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
+                                    </div>
+                                    <div class="me-2">
+                                        <div class="trl-player-bet__name">Дмитрий Вол...</div>
+                                        <div>100 000</div>
+                                    </div>
+                                    <div class="ms-auto">
+                                        <div class="trl-gr-red trl-player-bet__cell p-1 rounded-1">X12</div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -270,7 +308,7 @@
         <div class=" trl-bg rounded-5 px-2  py-2 d-md-flex">
             <div class="d-flex me-md-3 justify-content-center align-items-center">
                 <div>
-                    <div class="small-btn rounded-5 py-1 px-3 fw-bold trl-bg-light-2 font-18">Min</div>
+                    <div class="small-btn rounded-4 py-1 px-3 fw-bold trl-bg-light-2 font-18">Min</div>
                 </div>
                 <div class="mx-3">
                     <input type="text" class="w-100 rounded-4 text-center font-22 text-uppercase text-white fw-bold trl-bg-light-2">

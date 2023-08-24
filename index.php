@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body class="trl-bg-dark">
-    <div class="container g-0" style="max-width: 576px">
+    <div class="container g-0" style="max-width: 540px">
     <div class="px-2 pt-2">
         <div class="d-flex justify-content-between align-items-center">
             <div class="d-flex align-items-center trl-bg rounded-4 p-1">

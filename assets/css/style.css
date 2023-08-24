@@ -185,11 +185,6 @@ input {
     height: 206px;
 }
 
-@media (min-width: 768px) {
-    .trl-menu {
-        height: 117px;
-    }
-}
 .btn-bet {
     white-space: nowrap;
 }

@@ -304,9 +304,9 @@
     </div>
 </div>
 <div class="position-fixed start-0 bottom-0 w-100 trl-menu">
-    <div class="container px-2">
-        <div class=" trl-bg rounded-5 px-2  py-2 d-md-flex">
-            <div class="d-flex me-md-3 justify-content-center align-items-center">
+    <div style="max-width: 540px" class="container px-2" >
+        <div class=" trl-bg rounded-5 px-2  py-2">
+            <div class="d-flex justify-content-center align-items-center">
                 <div>
                     <div class="small-btn rounded-4 py-1 px-3 fw-bold trl-bg-light-2 font-18">Min</div>
                 </div>
@@ -317,39 +317,40 @@
                     <div class="small-btn rounded-4 py-1 px-3 fw-bold trl-bg-light-2 font-18">Max</div>
                 </div>
             </div>
-            <div class="d-flex mt-2 mt-md-0 me-md-2">
+            <div class="d-flex mt-2 ">
                 <div class="btn-bet me-2 rounded-4 fw-bold text-center font-20 px-3 py-1 w-50 trl-gr-blue">Bet x2</div>
                 <div class="btn-bet  rounded-4 fw-bold text-center font-20 px-3 py-1 w-50 trl-gr-red">Bet x2</div>
             </div>
-            <div class="d-flex mt-2 mt-md-0">
+            <div class="d-flex mt-2">
                 <div class="btn-bet rounded-4 me-2 fw-bold text-center font-20 px-3 py-1 w-50 trl-gr-yellow">Bet x2</div>
                 <div class="btn-bet rounded-4 fw-bold text-center font-20 px-3 py-1 w-50 trl-gr-green">Bet x2</div>
             </div>
         </div>
     </div>
-    <div class=" mt-2 trl-bg  d-flex justify-content-around align-items-center justify-content-between text-center bottom-0 px-3">
-    <div class="trl-menu__item py-1 ">
-      <img src="/assets/img/rules.png" alt="">
-      <span class="font-12 lh-0 mt-1 d-block">Rules</span>
+        <div   class="trl-bg mt-2  d-flex justify-content-around align-items-center justify-content-between text-center bottom-0 px-3">
+                <div class="trl-menu__item py-1 ">
+                    <img src="/assets/img/rules.png" alt="">
+                    <span class="font-12 lh-0 mt-1 d-block">Rules</span>
+                </div>
+                <div class="trl-menu__item py-1 ">
+                    <img src="/assets/img/game.png" alt="">
+                    <span class="font-12 lh-0 mt-1 d-block">Game</span>
+                </div>
+                <div class="trl-menu__item py-1 ">
+                    <img src="/assets/img/chat.png" alt="">
+                    <span class="font-12 lh-0 mt-1 d-block">Chat</span>
+                </div>
+                <div class="trl-menu__item py-1 ">
+                    <img src="/assets/img/gifts.png" alt="">
+                    <span class="font-12 lh-0 mt-1 d-block">Gifts</span>
+                </div>
+                <div class="trl-menu__item py-1 ">
+                    <img src="/assets/img/menu.png" alt="">
+                    <span class="font-12 lh-0 mt-1 d-block">Menu</span>
+                </div>
+            </div>
     </div>
-    <div class="trl-menu__item py-1 ">
-      <img src="/assets/img/game.png" alt="">
-      <span class="font-12 lh-0 mt-1 d-block">Game</span>
-    </div>
-    <div class="trl-menu__item py-1 ">
-      <img src="/assets/img/chat.png" alt="">
-      <span class="font-12 lh-0 mt-1 d-block">Chat</span>
-    </div>
-    <div class="trl-menu__item py-1 ">
-      <img src="/assets/img/gifts.png" alt="">
-      <span class="font-12 lh-0 mt-1 d-block">Gifts</span>
-    </div>
-    <div class="trl-menu__item py-1 ">
-      <img src="/assets/img/menu.png" alt="">
-      <span class="font-12 lh-0 mt-1 d-block">Menu</span>
-    </div>
-    </div>
-</div>
+ </div>
 <script src="/libs/bootstrap.min.js"></script>
 </body>
 </html>

@@ -26,7 +26,7 @@
 
             <div class="d-flex align-items-center trl-bg rounded-4 p-1">
                 <img src="/assets/img/wallet.png" class="pe-2 trl-avatar-header-icon--wallet" alt="">
-                <div class="trl-color font-18">$ 100000.00</div>
+                <div class="font-18">$ 100000.00</div>
             </div>
         </div>
         <div class="trl-jack-pot mt-2 rounded-4 p-1 d-flex justify-content-around align-items-center">
@@ -67,7 +67,7 @@
                     <div class="trl-roll__el trl-gr-red rounded-5"></div>
                 </div>
             </div>
-            <div class="d-flex mt-2 justify-content-between justify-content-lg-start">
+            <div class="d-flex mt-2 justify-content-between">
                 <div class="me-2 fw-bold font-14" style="margin-bottom: -2px">Последние 100 игр:</div>
                 <div class="d-flex">
                     <div class="trl-roll__el-history-wrap d-flex align-items-center">

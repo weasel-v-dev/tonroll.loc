@@ -228,6 +228,15 @@ a {
 @media screen and (max-width: 400px) {
 
 }
+
+.trl-avatar img {
+    height: auto;
+    max-width: 100%;
+}
+.trl-avatar {
+    width: 42px;
+    height: 42px;
+}
 @media  (max-width: 400px) {
     .trl-players-bets__list .col-6 {
         flex-basis: 100%;
@@ -243,10 +252,7 @@ a {
         width: 30px;
         height: 30px;
     }
-    .trl-avatar img {
-        height: auto;
-        max-width: 100%;
-    }
+
     .font-18 {
         font-size: 14px;
     }

@@ -26,7 +26,7 @@
 
             <div class="d-flex align-items-center trl-bg rounded-4 p-1">
                 <img src="/assets/img/wallet.png" class="pe-2 trl-avatar-header-icon--wallet" alt="">
-                <div class="font-18">$ 100000.00</div>
+                <div class="font-18 lh-0" style="margin-top: 3px;">$ 100000.00</div>
             </div>
         </div>
         <div class="trl-jack-pot mt-2 rounded-4 p-1 d-flex justify-content-around align-items-center">

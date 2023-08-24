@@ -236,8 +236,16 @@ a {
     .trl-avatar-header-icon {
         width: 30px;
     }
+    .trl-avatar-header-icon--wallet {
+        width: 27px;
+    }
+    .trl-avatar {
+        width: 30px;
+        height: 30px;
+    }
     .trl-avatar img {
-        width: 100%;
+        height: auto;
+        max-width: 100%;
     }
     .font-18 {
         font-size: 14px;

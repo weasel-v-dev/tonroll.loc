@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body class="trl-bg-dark">
-    <div class="container g-0">
+    <div class="container g-0" style="max-width: 576px">
     <div class="px-2 pt-2">
         <div class="d-flex justify-content-between align-items-center">
             <div class="d-flex align-items-center trl-bg rounded-4 p-1">
@@ -20,12 +20,12 @@
                 <img src="/assets/img/armor.png" class="ps-2 trl-avatar-header-icon" alt="">
             </div>
             <div class="trl-avatar trl-bg-green-blue d-flex justify-content-center align-items-center rounded-4">
-                <img src="/assets/img/plug/avatar.png" alt="" width="34px" height="34px">
+                <img src="/assets/img/plug/avatar.png" alt="" >
             </div>
 
 
             <div class="d-flex align-items-center trl-bg rounded-4 p-1">
-                <img src="/assets/img/wallet.png" class="pe-2 trl-avatar-header-icon" alt="">
+                <img src="/assets/img/wallet.png" class="pe-2 trl-avatar-header-icon--wallet" alt="">
                 <div class="trl-color font-18">$ 100000.00</div>
             </div>
         </div>

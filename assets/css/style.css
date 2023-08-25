@@ -239,15 +239,8 @@ a {
         flex-basis: 100%;
         width: 100%;
     }
-    .trl-avatar-header-icon {
-        width: 30px;
-    }
     .trl-avatar-header-icon--wallet {
-        width: 27px;
-    }
-    .trl-avatar {
-        width: 30px;
-        height: 30px;
+        width: 42px;
     }
 
     .font-18 {
@@ -265,6 +258,19 @@ a {
     }
     .font-20 {
         font-size: 17px;
+    }
+}
+
+@media  (max-width: 330px) {
+    .trl-avatar-header-icon {
+        width: 30px;
+    }
+    .trl-avatar-header-icon--wallet {
+        width: 27px;
+    }
+    .trl-avatar {
+        width: 30px;
+        height: 30px;
     }
 }
 

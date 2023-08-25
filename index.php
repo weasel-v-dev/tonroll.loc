@@ -75,24 +75,28 @@
                         <div class="trl-roll__el-history trl-gr-blue rounded-5"></div>
                     </div>
                     <div class="trl-roll__el-history-wrap d-flex align-items-center">
-                        <div class="trl-color-green fw-bold font-14 pe-1 lh-1">40</div>
+                        <div class="trl-color-green fw-bold font-14 pe-1 lh-1">30</div>
                         <div class="trl-roll__el-history trl-gr-green rounded-5"></div>
                     </div>
                     <div class="trl-roll__el-history-wrap d-flex align-items-center">
                         <div class="trl-color-red fw-bold font-14 pe-1 lh-1">50</div>
                         <div class="trl-roll__el-history trl-gr-red rounded-5"></div>
                     </div>
+                    <div class="trl-roll__el-history-wrap d-flex align-items-center">
+                        <div class="trl-color-yellow fw-bold font-14 pe-1 lh-1">10</div>
+                        <div class="trl-roll__el-history trl-gr-yellow rounded-5"></div>
+                    </div>
                 </div>
             </div>
         </div>
         <ul class="nav nav-pills d-flex justify-content-between" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
-                <div class="py-2 nowrap me-3 font-14 active"  id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                <div class="p-2 nowrap font-14 active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
                     <span>Игроки/Ставки <span class="arr">▼</span></span>
                 </div>
             </li>
             <li class="nav-item" role="presentation">
-                <div class="py-2 nowrap font-14"  id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                <div class="p-2 nowrap font-14" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
                     <span>История ставок <span class="arr">▼</span></span>
                 </div>
             </li>

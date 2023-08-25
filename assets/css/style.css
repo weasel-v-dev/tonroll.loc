@@ -282,6 +282,9 @@ a {
         width: 30px;
         height: 30px;
     }
+    .nav-item span, .trl-roll__desc {
+        font-size: 12px;
+    }
 }
 
 .font-12 {

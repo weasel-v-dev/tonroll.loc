@@ -14,10 +14,10 @@
     <div class="px-2 pt-2">
         <div class="d-flex justify-content-between align-items-center">
             <div class="d-flex align-items-center trl-bg rounded-4 p-1">
-                <img src="/assets/img/dynamic.png" class="pe-2 trl-avatar-header-icon" alt="">
+                <button><img src="/assets/img/dynamic.png" class="pe-2 trl-avatar-header-icon" alt=""></button>
                 <div class="trl-separator trl-bg-light"></div>
-                <img src="/assets/img/i.png" class="ps-2 trl-avatar-header-icon" alt="">
-                <img src="/assets/img/armor.png" class="ps-2 trl-avatar-header-icon" alt="">
+                <button><img src="/assets/img/i.png" class="ps-2 trl-avatar-header-icon" alt=""></button>
+                <button><img src="/assets/img/armor.png" class="ps-2 trl-avatar-header-icon" alt=""></button>
             </div>
             <div class="trl-avatar trl-bg-green-blue d-flex justify-content-center align-items-center rounded-4">
                 <img src="/assets/img/plug/avatar.png" alt="" >
@@ -300,58 +300,57 @@
             </div>
         </div>
 
-        <div class="trl-menu mt-2"></div>
+        <div class="trl-menu  mt-2"></div>
     </div>
 </div>
-<div class="position-fixed start-0 bottom-0 w-100 trl-menu">
-    <div style="max-width: 540px" class="container px-2" >
-        <div class=" trl-bg rounded-5 px-2  py-2">
-            <div class="d-flex justify-content-center align-items-center">
-                <div>
-                    <div class="small-btn rounded-4 py-1 px-3 fw-bold trl-bg-light-2 font-18">Min</div>
+    <div class="position-fixed start-0 bottom-0 w-100 trl-menu">
+        <div style="max-width: 540px" class="container px-2" >
+            <div class=" trl-bg rounded-5 px-2  py-2">
+                <div class="d-flex justify-content-center align-items-center">
+                    <div>
+                        <button class="small-btn rounded-4 py-1 px-3 fw-bold trl-bg-light-2 font-18">Min</button>
+                    </div>
+                    <label class="mx-3">
+                        <input type="text" class="w-100 rounded-4 text-center font-22 text-uppercase text-white fw-bold trl-bg-light-2">
+                    </label>
+                    <div>
+                        <button class="small-btn rounded-4 py-1 px-3 fw-bold trl-bg-light-2 font-18">Max</button>
+                    </div>
                 </div>
-                <div class="mx-3">
-                    <input type="text" class="w-100 rounded-4 text-center font-22 text-uppercase text-white fw-bold trl-bg-light-2">
+                <div class="d-flex mt-2 ">
+                    <button class="btn-bet me-2 rounded-4 fw-bold text-center font-20 px-3 py-1 w-50 trl-gr-blue">Bet x2</button>
+                    <button class="btn-bet  rounded-4 fw-bold text-center font-20 px-3 py-1 w-50 trl-gr-red">Bet x2</button>
                 </div>
-                <div>
-                    <div class="small-btn rounded-4 py-1 px-3 fw-bold trl-bg-light-2 font-18">Max</div>
+                <div class="d-flex mt-2">
+                    <button class="btn-bet rounded-4 me-2 fw-bold text-center font-20 px-3 py-1 w-50 trl-gr-yellow">Bet x2</button>
+                    <button class="btn-bet rounded-4 fw-bold text-center font-20 px-3 py-1 w-50 trl-gr-green">Bet x2</button>
                 </div>
             </div>
-            <div class="d-flex mt-2 ">
-                <div class="btn-bet me-2 rounded-4 fw-bold text-center font-20 px-3 py-1 w-50 trl-gr-blue">Bet x2</div>
-                <div class="btn-bet  rounded-4 fw-bold text-center font-20 px-3 py-1 w-50 trl-gr-red">Bet x2</div>
-            </div>
-            <div class="d-flex mt-2">
-                <div class="btn-bet rounded-4 me-2 fw-bold text-center font-20 px-3 py-1 w-50 trl-gr-yellow">Bet x2</div>
-                <div class="btn-bet rounded-4 fw-bold text-center font-20 px-3 py-1 w-50 trl-gr-green">Bet x2</div>
-            </div>
-        </div>
-    </div>
-        <div   class="trl-bg mt-2  d-flex justify-content-around align-items-center justify-content-between text-center bottom-0 px-3">
-                <div class="trl-menu__item py-1 ">
+            <div class="trl-menu__list trl-bg mt-2  d-flex justify-content-around align-items-center justify-content-between text-center bottom-0 px-3">
+                <button class="trl-menu__item py-1 ">
                     <img src="/assets/img/rules.png" alt="">
                     <span class="font-12 lh-0 mt-1 d-block">Rules</span>
-                </div>
-                <div class="trl-menu__item py-1 ">
+                </button>
+                <button class="trl-menu__item py-1 ">
                     <img src="/assets/img/game.png" alt="">
                     <span class="font-12 lh-0 mt-1 d-block">Game</span>
-                </div>
-                <div class="trl-menu__item py-1 ">
+                </button>
+                <button class="trl-menu__item py-1 ">
                     <img src="/assets/img/chat.png" alt="">
                     <span class="font-12 lh-0 mt-1 d-block">Chat</span>
-                </div>
-                <div class="trl-menu__item py-1 ">
+                </button>
+                <button class="trl-menu__item py-1 ">
                     <img src="/assets/img/gifts.png" alt="">
                     <span class="font-12 lh-0 mt-1 d-block">Gifts</span>
-                </div>
-                <div class="trl-menu__item py-1 ">
+                </button>
+                <button class="trl-menu__item py-1 ">
                     <img src="/assets/img/menu.png" alt="">
                     <span class="font-12 lh-0 mt-1 d-block">Menu</span>
-                </div>
+                </button>
             </div>
-    </div>
- </div>
-<script src="/libs/bootstrap.min.js"></script>
+        </div>
+     </div>
+    <script src="/libs/bootstrap.min.js"></script>
 </body>
 </html>
 <?php

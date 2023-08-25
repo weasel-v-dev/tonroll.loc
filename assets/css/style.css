@@ -10,6 +10,17 @@ body {
     color: white;
 }
 
+button {
+    border: none;
+    color: inherit;
+    background-color: transparent;
+    transition: all .3s ease-in;
+}
+
+button:hover {
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+}
+
 .trl-bg {
     background-color: #303843;
     box-shadow: 2px 2px 2px rgba(0, 0,0,0.1);
@@ -28,8 +39,6 @@ body {
     box-shadow: 2px 2px 2px rgba(0, 0,0,0.1);
 }
 
-
-
 .trl-separator {
     width: 1px;
     height: 24px;
@@ -40,18 +49,12 @@ body {
 }
 
 .trl-avatar {
-    /*width: 34px;*/
-    /*height: 34px;*/
     overflow: hidden;
 }
-
-
 
 .trl-bg-green-blue {
     background-color: #48a1af;
 }
-
-
 
 .trl-color {
     color: #798998;
@@ -79,13 +82,11 @@ body {
     overscroll-behavior: contain;
     scrollbar-width: none;
     overflow: auto;
-
 }
 
 .trl-roll__el {
     height: 80px;
     width: 80px;
-
 }
 
 .trl-roll__el-wrap:not(:last-child) {
@@ -185,8 +186,11 @@ input {
     height: 206px;
 }
 
+
+
 .btn-bet {
     white-space: nowrap;
+    box-shadow: 2px 2px 2px rgba(0, 0,0,0.1);
 }
 
 .rounded-4 {
@@ -250,7 +254,9 @@ a {
         width: 20px;
     }
 }
-
+.trl-menu__list {
+    border-radius: 15px 15px 0 0;
+}
 
 @media  (max-width: 350px) {
     .trl-roll__el-history {
@@ -259,6 +265,10 @@ a {
     .font-20 {
         font-size: 17px;
     }
+    .trl-menu__list {
+        border-radius: 15px;
+    }
+
 }
 
 @media  (max-width: 330px) {

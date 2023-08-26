@@ -361,14 +361,14 @@
         document.querySelectorAll('.js-trl-table').forEach(function (el) {
 
             if (/android/i.test(userAgent)) {
-                el.style.height = 'calc(100vh - 518px)';
+                el.style.height = 'calc(100vh - 543px)';
                 if(window.matchMedia("(max-width: 335px)").matches) {
-                    el.style.height = 'calc(100vh - 485px)';
+                    el.style.height = 'calc(100vh - 526px)';
                 }
             } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
                 el.style.height = 'calc(100vh - 512px)';
             } else {
-                el.style.height = 'calc(100vh - 512px)';
+                el.style.height = 'calc(100vh - 500px)';
                 if(window.matchMedia("(max-width: 335px)").matches) {
                     el.style.height = 'calc(100vh - 485px)';
                 }

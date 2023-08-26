@@ -379,7 +379,7 @@
             $menu.style.bottom = '45px';
             document.querySelector('input').value = 'android' ;
         } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-            $menu.style.bottom = '11px';
+            $menu.style.bottom = '9px';
             document.querySelector('input').value = 'iPhone';
         } else {
             $menu.style.bottom = '45px';

@@ -18,9 +18,9 @@ const $menu = document.querySelector('.js-trl-menu');
 // });
 
 if (/android/i.test(userAgent)) {
-    $menu.style.bottom = '25px';
-} else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
     $menu.style.bottom = '45px';
-} else {
+} else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
     $menu.style.bottom = '25px';
+} else {
+    $menu.style.bottom = '45px';
 }

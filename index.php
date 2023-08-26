@@ -389,10 +389,10 @@
         }
         setSizes();
 
-        document.onresize = function () {
+        window.addEventListener('resize', function() {
             setSizes();
             document.querySelector('input').value = 'onresize';
-        }
+        });
 
         // document.querySelector('form')
     </script>

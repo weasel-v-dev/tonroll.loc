@@ -356,7 +356,9 @@
      </div>
     <script src="/libs/bootstrap.min.js"></script>
     <script>
-        sessionStorage.setItem('one', '0');
+        if(!sessionStorage.getItem('one')) {
+            sessionStorage.setItem('one', '0');
+        }
         const userAgent = navigator.userAgent || navigator.vendor || window.opera;
         const $menu = document.querySelector('.js-trl-menu');
         function setSizes() {

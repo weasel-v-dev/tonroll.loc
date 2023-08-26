@@ -356,10 +356,10 @@
      </div>
     <script src="/libs/bootstrap.min.js"></script>
     <script>
-
+        const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+        const $menu = document.querySelector('.js-trl-menu');
         function setSizes() {
-            const userAgent = navigator.userAgent || navigator.vendor || window.opera;
-            const $menu = document.querySelector('.js-trl-menu');
+
             document.querySelectorAll('.js-trl-table').forEach(function (el) {
 
                 if (/android/i.test(userAgent)) {
@@ -392,8 +392,15 @@
         setSizes();
         });
         window.addEventListener('resize', function() {
-            setSizes();
-            document.querySelector('input').value = 'onresize';
+            document.querySelectorAll('.js-trl-table').forEach(function (el) {
+                el.style.height = 'calc(100vh - 500px)';
+                if (window.matchMedia("(max-width: 335px)").matches) {
+                    el.style.height = 'calc(100vh - 485px)';
+                }
+            });
+
+            $menu.style.bottom = '0';
+            document.querySelector('input').value = 'all';
         });
 
         // document.querySelector('form')

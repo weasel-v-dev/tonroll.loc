@@ -390,7 +390,7 @@
             }
         }
         window.addEventListener('load', function() {
-            if(one <= 1) {
+            if(one === 1) {
                 setDefaultSize();
             }
             else {

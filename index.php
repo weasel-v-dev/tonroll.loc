@@ -104,7 +104,7 @@
         <div class="tab-content" id="pills-tabContent">
             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
                 <div class="trl-bg rounded-5 py-2 px-2 d-flex  justify-content-center trl-players-bets__list overflow-auto"
-                     style="height: calc(100vh - 518px);min-height: 103px">
+                     style="height: calc(100vh - 502px);min-height: 103px">
                     <div class="container">
                         <div class="row g-0" style="height: fit-content">
                         <div class="col-6">
@@ -281,7 +281,7 @@
             </div>
             <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
                 <div class="trl-bg rounded-5 py-2 px-2 d-flex  justify-content-center trl-players-bets__list overflow-auto"
-                     style="height: calc(100vh - 518px);min-height: 103px">
+                     style="height: calc(100vh - 502px);min-height: 103px">
                     <div class="container">
                         <div class="row g-0" style="height: fit-content">
                             <div class="col-6">

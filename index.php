@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          content="width=device-width, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ton Roll</title>
     <link rel="stylesheet" href="/libs/bootstrap.min.css">
@@ -307,7 +307,7 @@
         <div class="trl-menu  mt-2"></div>
     </div>
 </div>
-    <div class="position-fixed start-0 bottom-0 w-100 trl-menu">
+    <div class="position-fixed start-0 w-100 trl-menu" style="bottom: 100px">
         <div style="max-width: 540px" class="container px-2" >
             <div class=" trl-bg rounded-5 px-2  py-2">
                 <div class="d-flex justify-content-center align-items-center">
@@ -330,7 +330,7 @@
                     <button class="btn-bet lh-1 rounded-4 fw-bold text-center font-20 px-3 py-2 w-50 trl-gr-green">Bet x2</button>
                 </div>
             </div>
-            <div class="trl-menu__list trl-bg mt-2  d-flex justify-content-around align-items-center justify-content-between text-center bottom-0 px-3">
+            <div class="trl-menu__list trl-bg mt-2  d-flex justify-content-around align-items-center justify-content-between text-center px-3">
                 <button class="trl-menu__item py-1 ">
                     <img src="/assets/img/rules.png" alt="">
                     <span class="lh-0 mt-1 d-block">Rules</span>

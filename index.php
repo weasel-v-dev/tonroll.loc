@@ -356,6 +356,7 @@
      </div>
     <script src="/libs/bootstrap.min.js"></script>
     <script>
+        let one = 0;
         const userAgent = navigator.userAgent || navigator.vendor || window.opera;
         const $menu = document.querySelector('.js-trl-menu');
         function setSizes() {
@@ -389,9 +390,19 @@
             }
         }
         window.addEventListener('load', function() {
-        setSizes();
+            if(one <= 1) {
+                setDefaultSize();
+            }
+            else {
+                setSizes();
+            }
+            one = 1;
         });
         window.addEventListener('resize', function() {
+            setDefaultSize();
+        });
+
+        function setDefaultSize() {
             document.querySelectorAll('.js-trl-table').forEach(function (el) {
                 el.style.height = 'calc(100vh - 500px)';
                 if (window.matchMedia("(max-width: 335px)").matches) {
@@ -401,7 +412,7 @@
 
             $menu.style.bottom = '0';
             document.querySelector('input').value = 'all';
-        });
+        }
 
         // document.querySelector('form')
     </script>

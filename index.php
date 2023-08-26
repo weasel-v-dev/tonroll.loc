@@ -310,17 +310,17 @@
     <div class="position-fixed start-0 w-100 trl-menu js-trl-menu">
         <div style="max-width: 540px" class="container px-2" >
             <div class=" trl-bg rounded-5 px-2  py-2">
-                <form class="form d-flex justify-content-center align-items-center">
+                <div class="d-flex justify-content-center align-items-center">
                     <div>
                         <button class="small-btn rounded-4 py-1 px-3 fw-bold trl-bg-light-2 font-18">Min</button>
                     </div>
                     <label class="mx-3">
-                        <input type="number" class="pt-1 w-100 rounded-4 text-center font-22 text-uppercase text-white fw-bold trl-bg-light-2">
+                        <input type="text" class="pt-1 w-100 rounded-4 text-center font-22 text-uppercase text-white fw-bold trl-bg-light-2">
                     </label>
                     <div>
                         <button class="small-btn rounded-4 py-1 px-3 fw-bold trl-bg-light-2 font-18">Max</button>
                     </div>
-                </form>
+                </div>
                 <div class="d-flex mt-2 ">
                     <button class="btn-bet lh-1  me-2 rounded-4 fw-bold text-center font-20 px-3 py-2 w-50 trl-gr-blue">Bet x2</button>
                     <button class="btn-bet lh-1  rounded-4 fw-bold text-center font-20 px-3 py-2 w-50 trl-gr-red">Bet x2</button>
@@ -356,6 +356,7 @@
      </div>
     <script src="/libs/bootstrap.min.js"></script>
     <script>
+
         function setSizes() {
             const userAgent = navigator.userAgent || navigator.vendor || window.opera;
             const $menu = document.querySelector('.js-trl-menu');
@@ -387,8 +388,9 @@
                 document.querySelector('input').value = 'all';
             }
         }
+        window.addEventListener('load', function() {
         setSizes();
-
+        });
         window.addEventListener('resize', function() {
             setSizes();
             document.querySelector('input').value = 'onresize';

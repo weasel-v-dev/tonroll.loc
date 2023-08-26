@@ -19,8 +19,11 @@ const $menu = document.querySelector('.js-trl-menu');
 
 if (/android/i.test(userAgent)) {
     $menu.style.bottom = '45px';
+    document.querySelector('input').value = 'android' ;
 } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
     $menu.style.bottom = '25px';
+    document.querySelector('input').value = 'iPhone';
 } else {
     $menu.style.bottom = '45px';
+    document.querySelector('input').value = 'all';
 }

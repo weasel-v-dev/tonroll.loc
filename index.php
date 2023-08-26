@@ -356,36 +356,42 @@
      </div>
     <script src="/libs/bootstrap.min.js"></script>
     <script>
-        const userAgent = navigator.userAgent || navigator.vendor || window.opera;
-        const $menu = document.querySelector('.js-trl-menu');
-        document.querySelectorAll('.js-trl-table').forEach(function (el) {
+        function setSizes() {
+            const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+            const $menu = document.querySelector('.js-trl-menu');
+            document.querySelectorAll('.js-trl-table').forEach(function (el) {
+
+                if (/android/i.test(userAgent)) {
+                    el.style.height = 'calc(100vh - 543px)';
+                    if(window.matchMedia("(max-width: 335px)").matches) {
+                        el.style.height = 'calc(100vh - 526px)';
+                    }
+                } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                    el.style.height = 'calc(100vh - 512px)';
+                } else {
+                    el.style.height = 'calc(100vh - 500px)';
+                    if(window.matchMedia("(max-width: 335px)").matches) {
+                        el.style.height = 'calc(100vh - 485px)';
+                    }
+                }
+            });
 
             if (/android/i.test(userAgent)) {
-                el.style.height = 'calc(100vh - 543px)';
-                if(window.matchMedia("(max-width: 335px)").matches) {
-                    el.style.height = 'calc(100vh - 526px)';
-                }
+                $menu.style.bottom = '44px';
+                document.querySelector('input').value = 'android' ;
             } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-                el.style.height = 'calc(100vh - 512px)';
+                $menu.style.bottom = '9px';
+                document.querySelector('input').value = 'iPhone';
             } else {
-                el.style.height = 'calc(100vh - 500px)';
-                if(window.matchMedia("(max-width: 335px)").matches) {
-                    el.style.height = 'calc(100vh - 485px)';
-                }
+                $menu.style.bottom = '0';
+                document.querySelector('input').value = 'all';
             }
-        });
-
-        if (/android/i.test(userAgent)) {
-            $menu.style.bottom = '44px';
-            document.querySelector('input').value = 'android' ;
-        } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-            $menu.style.bottom = '9px';
-            document.querySelector('input').value = 'iPhone';
-        } else {
-            $menu.style.bottom = '0';
-            document.querySelector('input').value = 'all';
         }
+        setSizes();
 
+        document.onresize = function () {
+            setSizes();
+        }
     </script>
 </body>
 </html>

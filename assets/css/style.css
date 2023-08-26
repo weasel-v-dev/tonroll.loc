@@ -185,7 +185,8 @@ input {
 }
 
 .trl-menu {
-    height: 450px;
+    height: 200px;
+    bottom: 30px;
 }
 
 

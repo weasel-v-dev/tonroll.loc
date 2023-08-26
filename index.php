@@ -113,7 +113,7 @@
                                     <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
                                 </div>
                                 <div class="me-2">
-                                    <div class="trl-player-bet__name">Дмитрий Вол...</div>
+                                    <div class="trl-player-bet__name">Дмитрий</div>
                                     <div>100 000</div>
                                 </div>
                                 <div class="ms-auto">
@@ -127,7 +127,7 @@
                                     <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
                                 </div>
                                 <div class="me-2">
-                                    <div class="trl-player-bet__name">Дмитрий Вол...</div>
+                                    <div class="trl-player-bet__name">Дмитрий</div>
                                     <div>100 000</div>
                                 </div>
                                 <div class="ms-auto">
@@ -141,7 +141,7 @@
                                     <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
                                 </div>
                                 <div class="me-2">
-                                    <div class="trl-player-bet__name">Дмитрий Вол...</div>
+                                    <div class="trl-player-bet__name">Дмитрий</div>
                                     <div>100 000</div>
                                 </div>
                                 <div class="ms-auto">
@@ -155,7 +155,7 @@
                                     <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
                                 </div>
                                 <div class="me-2">
-                                    <div class="trl-player-bet__name">Дмитрий Вол...</div>
+                                    <div class="trl-player-bet__name">Дмитрий</div>
                                     <div>100 000</div>
                                 </div>
                                 <div class="ms-auto">
@@ -169,7 +169,7 @@
                                     <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
                                 </div>
                                 <div class="me-2">
-                                    <div class="trl-player-bet__name">Дмитрий Вол...</div>
+                                    <div class="trl-player-bet__name">Дмитрий</div>
                                     <div>100 000</div>
                                 </div>
                                 <div class="ms-auto">
@@ -183,7 +183,7 @@
                                     <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
                                 </div>
                                 <div class="me-2">
-                                    <div class="trl-player-bet__name">Дмитрий Вол...</div>
+                                    <div class="trl-player-bet__name">Дмитрий</div>
                                     <div>100 000</div>
                                 </div>
                                 <div class="ms-auto">
@@ -197,7 +197,7 @@
                                     <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
                                 </div>
                                 <div class="me-2">
-                                    <div class="trl-player-bet__name">Дмитрий Вол...</div>
+                                    <div class="trl-player-bet__name">Дмитрий</div>
                                     <div>100 000</div>
                                 </div>
                                 <div class="ms-auto">
@@ -211,7 +211,7 @@
                                     <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
                                 </div>
                                 <div class="me-2">
-                                    <div class="trl-player-bet__name">Дмитрий Вол...</div>
+                                    <div class="trl-player-bet__name">Дмитрий</div>
                                     <div>100 000</div>
                                 </div>
                                 <div class="ms-auto">
@@ -225,7 +225,7 @@
                                     <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
                                 </div>
                                 <div class="me-2">
-                                    <div class="trl-player-bet__name">Дмитрий Вол...</div>
+                                    <div class="trl-player-bet__name">Дмитрий</div>
                                     <div>100 000</div>
                                 </div>
                                 <div class="ms-auto">
@@ -239,7 +239,7 @@
                                     <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
                                 </div>
                                 <div class="me-2">
-                                    <div class="trl-player-bet__name">Дмитрий Вол...</div>
+                                    <div class="trl-player-bet__name">Дмитрий</div>
                                     <div>100 000</div>
                                 </div>
                                 <div class="ms-auto">
@@ -253,7 +253,7 @@
                                     <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
                                 </div>
                                 <div class="me-2">
-                                    <div class="trl-player-bet__name">Дмитрий Вол...</div>
+                                    <div class="trl-player-bet__name">Дмитрий</div>
                                     <div>100 000</div>
                                 </div>
                                 <div class="ms-auto">
@@ -267,7 +267,7 @@
                                     <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
                                 </div>
                                 <div class="me-2">
-                                    <div class="trl-player-bet__name">Дмитрий Вол...</div>
+                                    <div class="trl-player-bet__name">Дмитрий</div>
                                     <div>100 000</div>
                                 </div>
                                 <div class="ms-auto">
@@ -290,7 +290,7 @@
                                         <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
                                     </div>
                                     <div class="me-2">
-                                        <div class="trl-player-bet__name">Дмитрий Вол...</div>
+                                        <div class="trl-player-bet__name">Дмитрий</div>
                                         <div>100 000</div>
                                     </div>
                                     <div class="ms-auto">

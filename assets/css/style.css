@@ -15,6 +15,7 @@ button {
     color: inherit;
     background-color: transparent;
     transition: all .3s ease-in;
+    padding: 0;
 }
 
 button:hover {
@@ -171,7 +172,7 @@ button:hover {
 }
 
 .trl-player-bet__name {
-    width: 85px;
+    width: 75px;
 }
 .font-18 {
     font-size: 18px;
@@ -239,10 +240,7 @@ a {
     height: 42px;
 }
 @media  (max-width: 400px) {
-    .trl-players-bets__list .col-6 {
-        flex-basis: 100%;
-        width: 100%;
-    }
+
     .trl-avatar-header-icon--wallet {
         width: 42px;
     }
@@ -259,6 +257,10 @@ a {
 }
 
 @media  (max-width: 350px) {
+    .trl-players-bets__list .col-6 {
+        flex-basis: 100%;
+        width: 100%;
+    }
     .trl-roll__el-history {
         width: 10px;
     }
@@ -271,7 +273,7 @@ a {
 
 }
 
-@media  (max-width: 330px) {
+@media  (max-width: 335px) {
     .trl-avatar-header-icon {
         width: 30px;
     }

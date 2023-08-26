@@ -330,7 +330,7 @@
                     <button class="btn-bet lh-1 rounded-4 fw-bold text-center font-20 px-3 py-2 w-50 trl-gr-green">Bet x2</button>
                 </div>
             </div>
-            <div class="trl-menu__list trl-bg mt-2  d-flex justify-content-around align-items-center justify-content-between text-center px-3">
+            <div class="rounded-4 trl-bg mt-2  d-flex justify-content-around align-items-center justify-content-between text-center px-3">
                 <button class="trl-menu__item py-1 ">
                     <img src="/assets/img/rules.png" alt="">
                     <span class="lh-0 mt-1 d-block">Rules</span>

@@ -66,6 +66,7 @@ button:hover {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     letter-spacing: 5px;
+    line-height: 1.1;
 }
 
 .trl-jack-pot__name {
@@ -184,7 +185,7 @@ input {
 }
 
 .trl-menu {
-    height: 206px;
+    height: 200px;
 }
 
 
@@ -240,6 +241,9 @@ a {
     height: 42px;
 }
 @media  (max-width: 400px) {
+    .trl-jack-pot {
+        font-size: 17px;
+    }
 
     .trl-avatar-header-icon--wallet {
         width: 42px;

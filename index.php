@@ -68,7 +68,7 @@
                 </div>
             </div>
             <div class="d-flex mt-2 justify-content-between">
-                <div class="trl-roll__desc me-2 fw-bold font-14" style="margin-bottom: -2px">Последние 100 игр:</div>
+                <div class="trl-roll__desc me-2 fw-bold font-14" style="margin-bottom: -2px">История игр:</div>
                 <div class="d-flex">
                     <div class="trl-roll__el-history-wrap d-flex align-items-center">
                         <div class="trl-color-blue fw-bold font-14 pe-1 lh-1">10</div>

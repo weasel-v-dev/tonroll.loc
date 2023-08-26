@@ -257,8 +257,7 @@ a {
     }
 }
 .trl-menu__list {
-    /*border-radius: 15px 15px 0 0;*/
-    border-radius: 15px;
+    border-radius: 15px 15px 0 0;
 }
 
 @media  (max-width: 350px) {
@@ -272,9 +271,9 @@ a {
     .font-20 {
         font-size: 17px;
     }
-    /*.trl-menu__list {*/
-    /*    border-radius: 15px;*/
-    /*}*/
+    .trl-menu__list {
+        border-radius: 15px;
+    }
 
 }
 

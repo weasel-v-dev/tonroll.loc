@@ -103,8 +103,8 @@
         </ul>
         <div class="tab-content" id="pills-tabContent">
             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
-                <div class="trl-bg rounded-5 py-2 px-2 d-flex  justify-content-center trl-players-bets__list overflow-auto"
-                     style="height: calc(100vh - 547px);min-height: 103px">
+                <div class="trl-bg js-trl-table rounded-5 py-2 px-2 d-flex  justify-content-center trl-players-bets__list overflow-auto"
+                     style="min-height: 103px">
                     <div class="container">
                         <div class="row g-0" style="height: fit-content">
                         <div class="col-6">
@@ -280,8 +280,8 @@
                 </div>
             </div>
             <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
-                <div class="trl-bg rounded-5 py-2 px-2 d-flex  justify-content-center trl-players-bets__list overflow-auto"
-                     style="height: calc(100vh - 547px);min-height: 103px">
+                <div class="js-trl-table trl-bg rounded-5 py-2 px-2 d-flex  justify-content-center trl-players-bets__list overflow-auto"
+                     style="min-height: 103px">
                     <div class="container">
                         <div class="row g-0" style="height: fit-content">
                             <div class="col-6">
@@ -307,7 +307,7 @@
         <div class="trl-menu  mt-2"></div>
     </div>
 </div>
-    <div class="position-fixed start-0 w-100 trl-menu" style="bottom: 0">
+    <div class="position-fixed start-0 w-100 trl-menu js-trl-menu">
         <div style="max-width: 540px" class="container px-2" >
             <div class=" trl-bg rounded-5 px-2  py-2">
                 <div class="d-flex justify-content-center align-items-center">
@@ -330,7 +330,7 @@
                     <button class="btn-bet lh-1 rounded-4 fw-bold text-center font-20 px-3 py-2 w-50 trl-gr-green">Bet x2</button>
                 </div>
             </div>
-            <div class="rounded-4 trl-bg mt-2  d-flex justify-content-around align-items-center justify-content-between text-center px-3">
+            <div class="trl-menu__list trl-bg mt-2  d-flex justify-content-around align-items-center justify-content-between text-center px-3">
                 <button class="trl-menu__item py-1 ">
                     <img src="/assets/img/rules.png" alt="">
                     <span class="lh-0 mt-1 d-block">Rules</span>
@@ -355,6 +355,7 @@
         </div>
      </div>
     <script src="/libs/bootstrap.min.js"></script>
+    <script src="/assets/js/script.js"></script>
 </body>
 </html>
 <?php

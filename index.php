@@ -356,9 +356,7 @@
      </div>
     <script src="/libs/bootstrap.min.js"></script>
     <script>
-        if(!sessionStorage.getItem('one')) {
-            sessionStorage.setItem('one', '0');
-        }
+
         const userAgent = navigator.userAgent || navigator.vendor || window.opera;
         const $menu = document.querySelector('.js-trl-menu');
         function setSizes() {
@@ -392,13 +390,7 @@
             }
         }
         window.addEventListener('load', function() {
-            if(sessionStorage.getItem('one') === '1') {
-                setDefaultSize();
-            }
-            else {
-                setSizes();
-            }
-            sessionStorage.setItem('one', '1');
+            setSizes();
         });
         window.addEventListener('resize', function() {
             setDefaultSize();

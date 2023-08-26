@@ -315,7 +315,7 @@
                         <button class="small-btn rounded-4 py-1 px-3 fw-bold trl-bg-light-2 font-18">Min</button>
                     </div>
                     <label class="mx-3">
-                        <input type="text" class="w-100 rounded-4 text-center font-22 text-uppercase text-white fw-bold trl-bg-light-2">
+                        <input type="number" class="pt-1 w-100 rounded-4 text-center font-22 text-uppercase text-white fw-bold trl-bg-light-2">
                     </label>
                     <div>
                         <button class="small-btn rounded-4 py-1 px-3 fw-bold trl-bg-light-2 font-18">Max</button>

@@ -188,7 +188,9 @@ input {
     height: 198px;
 }
 
-
+.small-btn {
+    width: 52px;
+}
 
 .btn-bet {
     white-space: nowrap;

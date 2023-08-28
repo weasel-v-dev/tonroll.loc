@@ -103,7 +103,7 @@
             <div class="tab-content" id="pills-tabContent">
                 <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
                     <div class="trl-bg js-trl-table rounded-5 py-2 px-2 d-flex  justify-content-center trl-players-bets__list overflow-auto"
-                         style="min-height: 103px">
+                         style="min-height: 103px;height: calc(100vh - 500px)">
                         <div class="container">
                             <div class="row g-0" style="height: fit-content">
                             <div class="col-6">
@@ -280,7 +280,7 @@
                 </div>
                 <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
                     <div class="js-trl-table trl-bg rounded-5 py-2 px-2 d-flex  justify-content-center trl-players-bets__list overflow-auto"
-                         style="min-height: 103px">
+                         style="min-height: 103px;height: calc(100vh - 500px)">
                         <div class="container">
                             <div class="row g-0" style="height: fit-content">
                                 <div class="col-6">
@@ -302,21 +302,29 @@
                     </div>
                 </div>
             </div>
+
             <div class="trl-menu  mt-2"></div>
+
         </div>
     </div>
-    <div class="position-fixed start-0 w-100 trl-menu js-trl-menu">
+    <div class="position-fixed start-0 bottom-0 w-100 trl-menu js-trl-menu">
         <div style="max-width: 540px" class="container px-2" >
             <div class=" trl-bg rounded-5 px-2  py-2">
                 <div class="d-flex justify-content-center align-items-center">
                     <div>
-                        <button class="small-btn rounded-4 py-1 px-3 fw-bold trl-bg-light-2 font-18">Min</button>
+                        <button class="small-btn rounded-4 py-1 fw-bold trl-bg-light-2 font-18">Min</button>
                     </div>
-                    <label class="mx-3">
+                    <div class="mx-1">
+                        <button class="small-btn rounded-4 py-1 fw-bold trl-bg-light-2 font-18">1/2</button>
+                    </div>
+                    <label class="">
                         <input type="text" class="pt-1 w-100 rounded-4 text-center font-22 text-uppercase text-white fw-bold trl-bg-light-2">
                     </label>
+                    <div class="mx-1">
+                        <button class="small-btn rounded-4 py-1 fw-bold trl-bg-light-2 font-18">X2</button>
+                    </div>
                     <div>
-                        <button class="small-btn rounded-4 py-1 px-3 fw-bold trl-bg-light-2 font-18">Max</button>
+                        <button class="small-btn rounded-4 py-1 fw-bold trl-bg-light-2 font-18">Max</button>
                     </div>
                 </div>
                 <div class="d-flex mt-2 ">
@@ -353,71 +361,7 @@
         </div>
      </div>
     <script src="/libs/bootstrap.min.js"></script>
-    <script>
-
-        const userAgent = navigator.userAgent || navigator.vendor || window.opera;
-        const $menu = document.querySelector('.js-trl-menu');
-        function setSizes() {
-
-
-            document.querySelectorAll('.js-trl-table').forEach(function (el) {
-
-                if (/android/i.test(userAgent)) {
-                    el.style.height = 'calc(100vh - 543px)';
-                    if(window.matchMedia("(max-width: 335px)").matches) {
-                        el.style.height = 'calc(100vh - 526px)';
-                    }
-                } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-                    el.style.height = 'calc(100vh - 512px)';
-                } else {
-                    el.style.height = 'calc(100vh - 500px)';
-                    if(window.matchMedia("(max-width: 335px)").matches) {
-                        el.style.height = 'calc(100vh - 485px)';
-                    }
-                }
-            });
-
-            // setTimeout(function () {
-            //     document.querySelector('.js-resize').style.display = 'block';
-            //     setTimeout(function () {
-            //         document.querySelector('.js-resize').style.display = 'none';
-            //     }, 2000)
-            // }, 2000);
-
-            if (/android/i.test(userAgent)) {
-                $menu.style.bottom = '44px';
-                document.querySelector('input').value = 'android' ;
-            } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-                $menu.style.bottom = '44px';
-                document.querySelector('input').value = 'iPhone';
-            } else {
-                $menu.style.bottom = '0';
-                document.querySelector('input').value = 'all';
-            }
-        }
-
-        window.addEventListener('load', function() {
-            setSizes();
-        });
-
-        window.addEventListener('resize', function() {
-            setDefaultSize();
-        });
-
-        function setDefaultSize() {
-            document.querySelectorAll('.js-trl-table').forEach(function (el) {
-                el.style.height = 'calc(100vh - 500px)';
-                if (window.matchMedia("(max-width: 335px)").matches) {
-                    el.style.height = 'calc(100vh - 485px)';
-                }
-            });
-
-            $menu.style.bottom = '0';
-            document.querySelector('input').value = 'all';
-        }
-
-        // document.querySelector('form')
-    </script>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </body>
 </html>
 <?php

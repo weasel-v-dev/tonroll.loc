@@ -402,7 +402,6 @@
 
         window.addEventListener('resize', function() {
             setDefaultSize();
-            setSizes();
         });
 
         function setDefaultSize() {

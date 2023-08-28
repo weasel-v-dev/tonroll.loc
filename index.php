@@ -399,7 +399,7 @@
         }
 
         window.addEventListener('load', function() {
-            setSizes();
+
         });
 
         window.addEventListener('resize', function() {

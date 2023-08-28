@@ -302,9 +302,7 @@
                     </div>
                 </div>
             </div>
-
             <div class="trl-menu  mt-2"></div>
-
         </div>
     </div>
     <div class="position-fixed start-0 w-100 trl-menu js-trl-menu">
@@ -387,10 +385,10 @@
             // }, 2000);
 
             if (/android/i.test(userAgent)) {
-                $menu.style.bottom = '44px';
+                $menu.style.bottom = '0';
                 document.querySelector('input').value = 'android' ;
             } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-                $menu.style.bottom = '9px';
+                $menu.style.bottom = '44px';
                 document.querySelector('input').value = 'iPhone';
             } else {
                 $menu.style.bottom = '0';
@@ -399,7 +397,7 @@
         }
 
         window.addEventListener('load', function() {
-
+            setSizes();
         });
 
         window.addEventListener('resize', function() {

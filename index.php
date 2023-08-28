@@ -385,7 +385,7 @@
             // }, 2000);
 
             if (/android/i.test(userAgent)) {
-                $menu.style.bottom = '27px';
+                $menu.style.bottom = '23px';
                 document.querySelector('input').value = 'android' ;
             } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
                 $menu.style.bottom = '44px';

@@ -312,19 +312,19 @@
             <div class=" trl-bg rounded-5 px-2  py-2">
                 <div class="d-flex justify-content-center align-items-center">
                     <div>
-                        <button class="small-btn rounded-4 py-1 px-2 fw-bold trl-bg-light-2 font-18">Min</button>
+                        <button class="small-btn rounded-4 py-1 fw-bold trl-bg-light-2 font-18">Min</button>
                     </div>
                     <div class="mx-1">
-                        <button class="small-btn rounded-4 py-1 px-2 fw-bold trl-bg-light-2 font-18">1/2</button>
+                        <button class="small-btn rounded-4 py-1 fw-bold trl-bg-light-2 font-18">1/2</button>
                     </div>
                     <label class="">
                         <input type="text" class="pt-1 w-100 rounded-4 text-center font-22 text-uppercase text-white fw-bold trl-bg-light-2">
                     </label>
                     <div class="mx-1">
-                        <button class="small-btn rounded-4 py-1 px-2 fw-bold trl-bg-light-2 font-18">X2</button>
+                        <button class="small-btn rounded-4 py-1 fw-bold trl-bg-light-2 font-18">X2</button>
                     </div>
                     <div>
-                        <button class="small-btn rounded-4 py-1 px-2 fw-bold trl-bg-light-2 font-18">Max</button>
+                        <button class="small-btn rounded-4 py-1 fw-bold trl-bg-light-2 font-18">Max</button>
                     </div>
                 </div>
                 <div class="d-flex mt-2 ">

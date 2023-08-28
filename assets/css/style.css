@@ -308,7 +308,7 @@ a {
 }
 
 .trl-resize {
-    height: 10px;
+    height: 600px;
     width: 100%;
     background-color: red;
     display: none;

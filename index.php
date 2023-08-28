@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body class="trl-bg-dark">
+    <div class="js-resize trl-resize"></div>
     <div class="container g-0" style="max-width: 540px">
     <div class="px-2 pt-2">
         <div class="d-flex justify-content-between align-items-center">
@@ -305,7 +306,7 @@
         </div>
 
         <div class="trl-menu  mt-2"></div>
-        <div class="js-resize trl-resize"></div>
+
     </div>
 </div>
     <div class="position-fixed start-0 w-100 trl-menu js-trl-menu">

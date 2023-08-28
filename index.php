@@ -307,7 +307,7 @@
 
         </div>
     </div>
-    <div class="position-fixed start-0 w-100 trl-menu js-trl-menu">
+    <div class="position-fixed start-0 bottom-0 w-100 trl-menu js-trl-menu">
         <div style="max-width: 540px" class="container px-2" >
             <div class=" trl-bg rounded-5 px-2  py-2">
                 <div class="d-flex justify-content-center align-items-center">
@@ -355,29 +355,30 @@
         </div>
      </div>
     <script src="/libs/bootstrap.min.js"></script>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script>
 
-        const userAgent = navigator.userAgent || navigator.vendor || window.opera;
-        const $menu = document.querySelector('.js-trl-menu');
+        // const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+        // const $menu = document.querySelector('.js-trl-menu');
         function setSizes() {
 
 
-            document.querySelectorAll('.js-trl-table').forEach(function (el) {
-
-                if (/android/i.test(userAgent)) {
-                    el.style.height = 'calc(100vh - 543px)';
-                    if(window.matchMedia("(max-width: 335px)").matches) {
-                        el.style.height = 'calc(100vh - 526px)';
-                    }
-                } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-                    el.style.height = 'calc(100vh - 512px)';
-                } else {
-                    el.style.height = 'calc(100vh - 500px)';
-                    if(window.matchMedia("(max-width: 335px)").matches) {
-                        el.style.height = 'calc(100vh - 485px)';
-                    }
-                }
-            });
+            // document.querySelectorAll('.js-trl-table').forEach(function (el) {
+            //
+            //     if (/android/i.test(userAgent)) {
+            //         el.style.height = 'calc(100vh - 543px)';
+            //         if(window.matchMedia("(max-width: 335px)").matches) {
+            //             el.style.height = 'calc(100vh - 526px)';
+            //         }
+            //     } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+            //         el.style.height = 'calc(100vh - 512px)';
+            //     } else {
+            //         el.style.height = 'calc(100vh - 500px)';
+            //         if(window.matchMedia("(max-width: 335px)").matches) {
+            //             el.style.height = 'calc(100vh - 485px)';
+            //         }
+            //     }
+            // });
 
             // setTimeout(function () {
             //     document.querySelector('.js-resize').style.display = 'block';
@@ -386,37 +387,37 @@
             //     }, 2000)
             // }, 2000);
 
-            if (/android/i.test(userAgent)) {
-                $menu.style.bottom = '44px';
-                document.querySelector('input').value = 'android' ;
-            } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-                $menu.style.bottom = '9px';
-                document.querySelector('input').value = 'iPhone';
-            } else {
-                $menu.style.bottom = '0';
-                document.querySelector('input').value = 'all';
-            }
+            // if (/android/i.test(userAgent)) {
+            //     $menu.style.bottom = '44px';
+            //     document.querySelector('input').value = 'android' ;
+            // } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+            //     $menu.style.bottom = '9px';
+            //     document.querySelector('input').value = 'iPhone';
+            // } else {
+            //     $menu.style.bottom = '0';
+            //     document.querySelector('input').value = 'all';
+            // }
         }
 
-        window.addEventListener('load', function() {
-            setSizes();
-        });
-
-        window.addEventListener('resize', function() {
-            setSizes();
-        });
-
-        function setDefaultSize() {
-            document.querySelectorAll('.js-trl-table').forEach(function (el) {
-                el.style.height = 'calc(100vh - 500px)';
-                if (window.matchMedia("(max-width: 335px)").matches) {
-                    el.style.height = 'calc(100vh - 485px)';
-                }
-            });
-
-            $menu.style.bottom = '0';
-            document.querySelector('input').value = 'all';
-        }
+        // window.addEventListener('load', function() {
+        //     setSizes();
+        // });
+        //
+        // window.addEventListener('resize', function() {
+        //     setSizes();
+        // });
+        //
+        // function setDefaultSize() {
+        //     document.querySelectorAll('.js-trl-table').forEach(function (el) {
+        //         el.style.height = 'calc(100vh - 500px)';
+        //         if (window.matchMedia("(max-width: 335px)").matches) {
+        //             el.style.height = 'calc(100vh - 485px)';
+        //         }
+        //     });
+        //
+        //     $menu.style.bottom = '0';
+        //     document.querySelector('input').value = 'all';
+        // }
 
         // document.querySelector('form')
     </script>

@@ -383,7 +383,7 @@
             setTimeout(function () {
                 document.querySelector('.js-resize').style.display = 'block';
                 setTimeout(function () {
-                    document.querySelector('.js-resize').style.display = 'block';
+                    document.querySelector('.js-resize').style.display = 'none';
                 }, 2000)
             }, 2000);
 

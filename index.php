@@ -305,6 +305,7 @@
         </div>
 
         <div class="trl-menu  mt-2"></div>
+        <div class="js-resize trl-resize"></div>
     </div>
 </div>
     <div class="position-fixed start-0 w-100 trl-menu js-trl-menu">
@@ -361,6 +362,7 @@
         const $menu = document.querySelector('.js-trl-menu');
         function setSizes() {
 
+
             document.querySelectorAll('.js-trl-table').forEach(function (el) {
 
                 if (/android/i.test(userAgent)) {
@@ -378,6 +380,13 @@
                 }
             });
 
+            setTimeout(function () {
+                document.querySelector('.js-resize').style.display = 'block';
+                setTimeout(function () {
+                    document.querySelector('.js-resize').style.display = 'block';
+                }, 2000)
+            }, 2000);
+
             if (/android/i.test(userAgent)) {
                 $menu.style.bottom = '44px';
                 document.querySelector('input').value = 'android' ;
@@ -391,6 +400,7 @@
         }
         window.addEventListener('load', function() {
             setSizes();
+
         });
         window.addEventListener('resize', function() {
             setDefaultSize();

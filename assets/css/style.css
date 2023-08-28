@@ -307,3 +307,8 @@ a {
     opacity: 1;
 }
 
+.trl-resize {
+    height: 10px;
+    width: 100%;
+    background-color: red;
+}

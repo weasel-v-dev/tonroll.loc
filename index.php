@@ -307,7 +307,7 @@
 
         </div>
     </div>
-    <div class="position-fixed start-0 bottom-0 w-100 trl-menu js-trl-menu">
+    <div class="position-fixed start-0 w-100 trl-menu js-trl-menu" style="bottom: 5px">
         <div style="max-width: 540px" class="container px-2" >
             <div class=" trl-bg rounded-5 px-2  py-2">
                 <div class="d-flex justify-content-center align-items-center">
@@ -336,7 +336,8 @@
                     <button class="btn-bet lh-1 rounded-4 fw-bold text-center font-20 px-3 py-2 w-50 trl-gr-green">Bet x2</button>
                 </div>
             </div>
-            <div class="trl-menu__list trl-bg mt-2  d-flex justify-content-around align-items-center justify-content-between text-center px-3">
+            <div class="pt-2"></div>
+            <div class="trl-menu__list trl-bg  d-flex justify-content-around align-items-center justify-content-between text-center px-3">
                 <button class="trl-menu__item py-1 ">
                     <img src="/assets/img/rules.png" alt="">
                     <span class="lh-0 mt-1 d-block">Rules</span>

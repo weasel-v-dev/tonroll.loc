@@ -307,7 +307,7 @@
 
         </div>
     </div>
-    <div class="position-fixed start-0 w-100 trl-menu js-trl-menu" style="bottom: 5px">
+    <div class="position-fixed start-0 w-100 trl-menu js-trl-menu" style="bottom: 0.5rem">
         <div style="max-width: 540px" class="container px-2" >
             <div class=" trl-bg rounded-5 px-2  py-2">
                 <div class="d-flex justify-content-center align-items-center">

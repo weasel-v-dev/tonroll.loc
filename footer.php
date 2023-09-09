@@ -10,7 +10,7 @@ function isHome($fv, $sv) {
 </div>
 </div>
 
-<div class="position-fixed start-0 w-100 js-trl-menu" style="height: <?= isHome(198, 45) ?>px;bottom: 0.5rem">
+<div class="position-fixed start-0 w-100 js-trl-menu" style="height: <?= isHome(198, 45) ?>px;bottom: 0.3rem">
    <div style="max-width: 540px" class="container px-2" >
     <?php
 

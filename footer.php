@@ -1,36 +1,49 @@
-<div class="trl-menu  mt-3"></div>
+<?php
+function isHome($fv, $sv) {
+    if($_SERVER['REQUEST_URI'] == "/" || $_SERVER['REQUEST_URI'] == "/index.php") {
+        return $fv;
+    }
+    return $sv;
+} ?>
+
+<div class="trl-menu mt-3" style="height: <?= isHome(198, 45) ?>px;" ></div>
 </div>
 </div>
-<div class="position-fixed start-0 w-100 trl-menu js-trl-menu" style="bottom: 0.5rem">
-  <div style="max-width: 540px" class="container px-2" >
-    <div class=" trl-bg rounded-5 px-2  py-2">
-      <div class="d-flex justify-content-center align-items-center">
-        <div>
-          <button class="small-btn rounded-4 py-1 fw-bold trl-bg-light-2 font-18">Min</button>
+
+<div class="position-fixed start-0 w-100 js-trl-menu" style="height: <?= isHome(198, 45) ?>px;bottom: 0.5rem">
+   <div style="max-width: 540px" class="container px-2" >
+    <?php
+
+    if($_SERVER['REQUEST_URI'] == "/" || $_SERVER['REQUEST_URI'] == "/index.php") { ?>
+      <div class=" trl-bg rounded-5 px-2  py-2">
+        <div class="d-flex justify-content-center align-items-center">
+          <div>
+            <button class="small-btn rounded-4 py-1 fw-bold trl-bg-light-2 font-18">Min</button>
+          </div>
+          <div class="mx-1">
+            <button class="small-btn rounded-4 py-1 fw-bold trl-bg-light-2 font-18">1/2</button>
+          </div>
+          <label class="">
+            <input type="text" class="pt-1 w-100 rounded-4 text-center font-22 text-uppercase text-white fw-bold trl-bg-light-2">
+          </label>
+          <div class="mx-1">
+            <button class="small-btn rounded-4 py-1 fw-bold trl-bg-light-2 font-18">X2</button>
+          </div>
+          <div>
+            <button class="small-btn rounded-4 py-1 fw-bold trl-bg-light-2 font-18">Max</button>
+          </div>
         </div>
-        <div class="mx-1">
-          <button class="small-btn rounded-4 py-1 fw-bold trl-bg-light-2 font-18">1/2</button>
+        <div class="d-flex mt-2 ">
+          <button class="btn-bet lh-1  me-2 rounded-4 fw-bold text-center font-20 px-3 py-2 w-50 trl-gr-blue">Bet x2</button>
+          <button class="btn-bet lh-1  rounded-4 fw-bold text-center font-20 px-3 py-2 w-50 trl-gr-red">Bet x2</button>
         </div>
-        <label class="">
-          <input type="text" class="pt-1 w-100 rounded-4 text-center font-22 text-uppercase text-white fw-bold trl-bg-light-2">
-        </label>
-        <div class="mx-1">
-          <button class="small-btn rounded-4 py-1 fw-bold trl-bg-light-2 font-18">X2</button>
-        </div>
-        <div>
-          <button class="small-btn rounded-4 py-1 fw-bold trl-bg-light-2 font-18">Max</button>
+        <div class="d-flex mt-2">
+          <button class="btn-bet lh-1 rounded-4 me-2 fw-bold text-center font-20 px-3 py-2 w-50 trl-gr-yellow">Bet x2</button>
+          <button class="btn-bet lh-1 rounded-4 fw-bold text-center font-20 px-3 py-2 w-50 trl-gr-green">Bet x2</button>
         </div>
       </div>
-      <div class="d-flex mt-2 ">
-        <button class="btn-bet lh-1  me-2 rounded-4 fw-bold text-center font-20 px-3 py-2 w-50 trl-gr-blue">Bet x2</button>
-        <button class="btn-bet lh-1  rounded-4 fw-bold text-center font-20 px-3 py-2 w-50 trl-gr-red">Bet x2</button>
-      </div>
-      <div class="d-flex mt-2">
-        <button class="btn-bet lh-1 rounded-4 me-2 fw-bold text-center font-20 px-3 py-2 w-50 trl-gr-yellow">Bet x2</button>
-        <button class="btn-bet lh-1 rounded-4 fw-bold text-center font-20 px-3 py-2 w-50 trl-gr-green">Bet x2</button>
-      </div>
-    </div>
-    <div class="pt-2"></div>
+      <div class="pt-2"></div>
+    <?php } ?>
     <div class="trl-menu__list trl-bg  d-flex justify-content-around align-items-center justify-content-between text-center px-3">
       <a class="trl-menu__item py-1 " href="/rules.php">
         <img src="/assets/img/rules.png" alt="">

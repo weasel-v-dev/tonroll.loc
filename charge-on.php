@@ -54,7 +54,7 @@
   </div>
   <div class="p-2 trl-bg mt-2 rounded-5 ">
     <div class="table-responsive">
-      <table class="table text-light mb-0" style="border-collapse:separate;
+      <table class="table charge-on text-light mb-0" style="border-collapse:separate;
   border-spacing: 0 5px;">
         <thead>
         <tr>
@@ -66,60 +66,12 @@
         </tr>
         </thead>
         <tbody>
-        <tr class="pag trl-player-bet rounded-5  trl-bg-light-2">
-          <td class="border-0">
-            <div class="text-center"><span  class="trl-gr-black lh-1 p-1 d-inline-block rounded-3">1</span></div>
-          </td>
-          <td class="border-0">
-            <div class="text-center"><span  class="trl-gr-blue lh-1 p-1 d-inline-block rounded-3">12000</span></div>
-          </td>
-          <td class="border-0">
-            <div class=""><span  class="nowrap trl-gr-black lh-1 p-1 d-inline-block rounded-3">3423 2342 2343 2334</span></div>
-          </td>
-          <td class="border-0">
-            <div class="text-center"><span  class="trl-gr-yellow lh-1 p-1 d-inline-block rounded-3">Обработка</span></div>
-          </td>
-          <td class="border-0">
-            <div class="text-center"><span  class="trl-gr-orange nowrap lh-1 p-1 d-inline-block rounded-3">14.01.2023 12:22:57</span></div>
-          </td>
-        </tr>
-        <tr class="pag trl-player-bet rounded-5  trl-bg-light-2">
-          <td class="border-0">
-            <div class="text-center"><span class="trl-gr-black lh-1 p-1 d-inline-block rounded-3">1</span></div>
-          </td>
-          <td class="border-0">
-            <div class="text-center"><span class="trl-gr-blue lh-1 p-1 d-inline-block rounded-3">12000</span></div>
-          </td>
-          <td class="border-0">
-            <div class=""><span class="nowrap trl-gr-black lh-1 p-1 d-inline-block rounded-3">3423 2342 2343 2334</span></div>
-          </td>
-          <td class="border-0">
-            <div class="text-center"><span class="trl-gr-red lh-1 p-1 d-inline-block rounded-3">Отменв</span></div>
-          </td>
-          <td class="border-0">
-            <div class="text-center"><span class="trl-gr-orange nowrap lh-1 p-1 d-inline-block rounded-3">14.01.2023 12:22:57</span></div>
-          </td>
-        </tr>
-        <tr class="pag trl-player-bet rounded-5  trl-bg-light-2">
-          <td class="border-0">
-            <div class="text-center"><span class="trl-gr-black lh-1 p-1 d-inline-block rounded-3">1</span></div>
-          </td>
-          <td class="border-0">
-            <div class="text-center"><span class="trl-gr-blue lh-1 p-1 d-inline-block rounded-3">12000</span></div>
-          </td>
-          <td class="border-0">
-            <div class=""><span class="nowrap trl-gr-black lh-1 p-1 d-inline-block rounded-3">3423 2342 2343 2334</span></div>
-          </td>
-          <td class="border-0">
-            <div class="text-center"><span class="trl-gr-green lh-1 p-1 d-inline-block rounded-3">Успех</span></div>
-          </td>
-          <td class="border-0">
-            <div class="text-center"><span class="trl-gr-orange nowrap lh-1 p-1 d-inline-block rounded-3">14.01.2023 12:22:57</span></div>
-          </td>
-        </tr>
         </tbody>
       </table>
+      <div class="text-center">
+        <div class="pagination-controls"></div>
+      </div>
     </div>
   </div>
-
+  <script src="/assets/js/charge-on.js"></script>
 <?php include 'footer.php';

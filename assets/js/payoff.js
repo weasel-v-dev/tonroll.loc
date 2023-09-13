@@ -9,63 +9,63 @@ const payoffs = JSON.parse(JSON.stringify([
     {
         id: 1,
         amount: '12000',
-        card: '3423 2342 2343 2334',
+        card: '2347236jdgkdjf4984sfgd',
         status: 'Успешно',
         date: '14.01.2023 12:22:57'
     },
     {
         id: 2,
         amount: '12000',
-        card: '3423 2342 2343 2334',
+        card: '2347236jdgkdjf4984sfgd',
         status: 'Успешно',
         date: '14.01.2023 12:22:57'
     },
     {
         id: 3,
         amount: '12000',
-        card: '3423 2342 2343 2334',
+        card: '2347236jdgkdjf4984sfgd',
         status: 'Успешно',
         date: '14.01.2023 12:22:57'
     },
     {
         id: 4,
         amount: '12000',
-        card: '3423 2342 2343 2334',
+        card: '2347236jdgkdjf4984sfgd',
         status: 'Успешно',
         date: '14.01.2023 12:22:57'
     },
     {
         id: 5,
         amount: '12000',
-        card: '3423 2342 2343 2334',
+        card: '2347236jdgkdjf4984sfgd',
         status: 'Успешно',
         date: '14.01.2023 12:22:57'
     },
     {
         id: 6,
         amount: '12000',
-        card: '3423 2342 2343 2334',
+        card: '2347236jdgkdjf4984sfgd',
         status: 'Успешно',
         date: '14.01.2023 12:22:57'
     },
     {
         id: 7,
         amount: '12000',
-        card: '3423 2342 2343 2334',
+        card: '2347236jdgkdjf4984sfgd',
         status: 'Успешно',
         date: '14.01.2023 12:22:57'
     },
     {
         id: 8,
         amount: '12000',
-        card: '3423 2342 2343 2334',
+        card: '2347236jdgkdjf4984sfgd',
         status: 'Успешно',
         date: '14.01.2023 12:22:57'
     },
     {
         id: 9,
         amount: '12000',
-        card: '3423 2342 2343 2334',
+        card: '2347236jdgkdjf4984sfgd',
         status: 'Успешно',
         date: '14.01.2023 12:22:57'
     }
@@ -91,7 +91,7 @@ function displayItems(page) {
             <div class="text-center"><span  class="trl-gr-blue lh-1 p-1 d-inline-block rounded-3">${prop.amount}</span></div>
           </td>
           <td class="border-0">
-            <div class="text-center"><span  class="trl-gr-black lh-1 p-1 d-inline-block rounded-3">${prop.card}</span></div>
+            <div class="text-center"><span  class="trl-gr-black nowrap lh-1 p-1 d-inline-block rounded-3">${prop.card}</span></div>
           </td>
           <td class="border-0">
             <div class="text-center"><span  class="trl-gr-red lh-1 p-1 d-inline-block rounded-3">${prop.status}</span></div>

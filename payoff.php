@@ -69,9 +69,9 @@
         <tbody>
         </tbody>
       </table>
-      <div class="text-center">
-        <div class="pagination-controls"></div>
-      </div>
+    </div>
+    <div class="text-center">
+      <div class="pagination-controls"></div>
     </div>
   </div>
   <script src="/assets/js/payoff.js"></script>

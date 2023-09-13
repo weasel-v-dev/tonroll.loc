@@ -9,63 +9,63 @@ const chargesOn = JSON.parse(JSON.stringify([
     {
         id: 1,
         amount: '12000',
-        card: '2347236jdgkdjf4984sfgd',
+        card: '3423 2342 2343 2334',
         status: 'Успешно',
         date: '14.01.2023 12:22:57'
     },
     {
         id: 2,
         amount: '12000',
-        card: '2347236jdgkdjf4984sfgd',
+        card: '3423 2342 2343 2334',
         status: 'Успешно',
         date: '14.01.2023 12:22:57'
     },
     {
         id: 3,
         amount: '12000',
-        card: '2347236jdgkdjf4984sfgd',
+        card: '3423 2342 2343 2334',
         status: 'Успешно',
         date: '14.01.2023 12:22:57'
     },
     {
         id: 4,
         amount: '12000',
-        card: '2347236jdgkdjf4984sfgd',
+        card: '3423 2342 2343 2334',
         status: 'Успешно',
         date: '14.01.2023 12:22:57'
     },
     {
         id: 5,
         amount: '12000',
-        card: '2347236jdgkdjf4984sfgd',
+        card: '3423 2342 2343 2334',
         status: 'Успешно',
         date: '14.01.2023 12:22:57'
     },
     {
         id: 6,
         amount: '12000',
-        card: '2347236jdgkdjf4984sfgd',
+        card: '3423 2342 2343 2334',
         status: 'Успешно',
         date: '14.01.2023 12:22:57'
     },
     {
         id: 7,
         amount: '12000',
-        card: '2347236jdgkdjf4984sfgd',
+        card: '3423 2342 2343 2334',
         status: 'Успешно',
         date: '14.01.2023 12:22:57'
     },
     {
         id: 8,
         amount: '12000',
-        card: '2347236jdgkdjf4984sfgd',
+        card: '3423 2342 2343 2334',
         status: 'Успешно',
         date: '14.01.2023 12:22:57'
     },
     {
         id: 9,
         amount: '12000',
-        card: '2347236jdgkdjf4984sfgd',
+        card: '3423 2342 2343 2334',
         status: 'Успешно',
         date: '14.01.2023 12:22:57'
     }

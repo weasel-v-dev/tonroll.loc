@@ -1,16 +1,49 @@
 <?php include 'header.php' ?>
 <div class="p-2 trl-bg mt-2 rounded-5 ">
-    <h1 class=" font-18 text-center">Правила
+    <h1 class=" mb-0 font-18 text-center">Правила сервиса
     </h1>
-    <div  class="font-14">
-        <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
-        </p>
-        <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
-        </p>
-        <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+</div>
+<div class="p-2 trl-bg mt-2 rounded-5 ">
+    <div  class="">
+        <h2  class="font-12">1. ТЕРМИНЫ И ОПРЕДЕЛЕНИЯ.</h2>
+        <p>1.1. «Аккаунт» – идентификационная запись,
+            закрепляемая за каждым Пользователем, содержащая
+            информацию о Пользователе, платёжные реквизиты,
+            статистику, баланс средств и другие данные. <br>
+            1.2. «Пользователь» – лицо совершившее акцепт данной
+            публичной оферты путём регистрации в сервисе
+            FastWin. <br>
+            1.3. «Реферал» – Пользователь, приглашённый другим
+            пользователем в Проект при помощи уникальной
+            реферальной ссылки. <br>
+            1.4. «Рефер» – Пользователь, пригласивший других
+            пользователей в Проект при помощи уникальной
+            реферальной ссылки. <br>
+            1.5. «Аутентификация и авторизация» («Вход в
+            Аккаунт») – получение доступа к Аккаунту путём
+            входа в него через соц. сети, API ключ и т.д.
+            1.6. «Бан» – блокировка Аккаунта Пользователя
+            исключающая возможность аутентификации и
+            авторизации и каких-либо действий пользователя
+            посредством своего Аккаунта.</p>
+        <h2  class="font-12">2. ОБЩИЕ ПОЛОЖЕНИЯ.</h2>
+        <p class="mb-0">
+            2.1. Настоящее соглашение – официальный договор на
+            пользование услугами сервиса. Ниже приведены
+            основные условия пользования услугами сервиса.
+            Пожалуйста, прежде чем принять участие в проекте
+            внимательно изучите правила. <br>
+            2.2. Услугами сервиса могут пользоваться
+            исключительно лица, достигшие совершеннолетия
+            (18 лет) и старше. <br>
+            2.3. Онлайн сервис под названием FastWin является
+            онлайн-ресурсом, предназначенным для оказания
+            развлекательно-аттракционных услуг физическим
+            лицам и представляет собой систему добровольных
+            пожертвований. <br>
+            2.4. Организаторы онлайн сервиса FastWin никого не
+            обязывают проводить свой досуг на Сервисе.
+            2.5. Администрация имеет право в одностороннем
         </p>
     </div>
 </div>

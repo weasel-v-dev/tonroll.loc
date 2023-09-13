@@ -57,9 +57,13 @@ function isHome($fv, $sv) {
       <!--                    <img src="/assets/img/chat.png" alt="">-->
       <!--                    <span class="lh-0 mt-1 d-block">Чат</span>-->
       <!--                </button>-->
-      <a class="trl-menu__item py-1 " href="/methods-payments.php">
+      <a class="trl-menu__item py-1 " href="/methods-payment.php">
         <img src="/assets/img/gifts.png" alt="">
         <span class="lh-0 mt-1 d-block">Оплата</span>
+      </a>
+      <a class="trl-menu__item py-1 " href="/methods-payoff.php">
+        <img src="/assets/img/gifts.png" alt="">
+        <span class="lh-0 mt-1 d-block">Выплата</span>
       </a>
       <!--                <button class="trl-menu__item py-1 ">-->
       <!--                    <img src="/assets/img/menu.png" alt="">-->

@@ -25,7 +25,7 @@
 
 </div>
 <div class="d-flex align-items-center mt-2">
-  <div class=" fw-bold nowrap pe-1 font-14">Заказ выплаты</div>
+  <div class=" fw-bold nowrap pe-2 font-14">Заказ выплаты</div>
   <div class="trl-divider  trl-bg-white"></div>
 </div>
 <div class="p-2 trl-bg mt-2 rounded-5 text-center">
@@ -49,7 +49,7 @@
   </div>
 </div>
   <div class="d-flex align-items-center mt-2">
-    <div class=" fw-bold nowrap pe-1 font-14">Ваши выплаты на USDT</div>
+    <div class=" fw-bold nowrap pe-2 font-14">Ваши выплаты на USDT</div>
     <div class="trl-divider  trl-bg-white"></div>
   </div>
   <div class="p-2 trl-bg mt-2 rounded-5 ">

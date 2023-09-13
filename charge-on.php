@@ -6,7 +6,7 @@
 
     <form class="text-center">
       <div class="">
-        <img style="width: 70%;" class="img-thumbnail mb-2" src="/assets/img/methods/tynk.png" alt="">
+        <img style="width: 50%;" class="img-thumbnail mb-2" src="/assets/img/methods/tynk.png" alt="">
       </div>
         <div class=" mb-2">
           <label class="">

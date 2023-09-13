@@ -72,7 +72,7 @@ const payoffs = JSON.parse(JSON.stringify([
 ]));
 
 
-const ITEMS_PER_PAGE = 2;
+const ITEMS_PER_PAGE = 5;
 let currentPage = 1;
 
 function displayItems(page) {

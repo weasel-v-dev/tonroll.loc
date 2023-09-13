@@ -52,8 +52,7 @@
     <div class=" fw-bold nowrap pe-2 font-14">Ваши выплаты на USDT</div>
     <div class="trl-divider  trl-bg-white"></div>
   </div>
-  <div class="p-2 trl-bg mt-2 rounded-5 " style=" overflow: auto;
-    height: calc(100vh - 304px);">
+  <div class="p-2 trl-bg mt-2 rounded-5 ">
     <div class="table-responsive">
       <table class="table payoff text-light mb-0" style="border-collapse:separate;
   border-spacing: 0 5px;">

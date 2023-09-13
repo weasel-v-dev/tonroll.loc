@@ -81,7 +81,7 @@ const usersRefs = JSON.parse(JSON.stringify([
 ]));
 
 
-const ITEMS_PER_PAGE = 2;
+const ITEMS_PER_PAGE = 5;
 let currentPage = 1;
 
 function displayItems(page) {
@@ -100,7 +100,7 @@ function displayItems(page) {
                     </div>
                     <div class="me-2">
                         <div  style="width: 50px">${prop.name}</div>
-                        <div>${prop.income}</div>
+<!--                        <div>${prop.income}</div>-->
                     </div>
                 </div>
             </td>

@@ -229,10 +229,6 @@ input::placeholder {
 .trl-menu__item {
     height: 100%;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     background-color: rgba(0,0,0,0.0);
     transition: background-color, .3s ease;
 }

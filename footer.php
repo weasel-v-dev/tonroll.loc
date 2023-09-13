@@ -6,12 +6,12 @@ function isHome($fv, $sv) {
     return $sv;
 } ?>
 
-<div class="trl-menu" style="height: <?= isHome(198, 45) ?>px;" ></div>
+<div class="trl-menu mt-3" style="height: <?= isHome(198, 45) ?>px;" ></div>
 </div>
 </div>
 
-<div class="position-fixed start-0 w-100 js-trl-menu" style="height: <?= isHome(198, 45) ?>px;bottom: 0.3rem">
-   <div style="max-width: 540px" class="container px-2" >
+<div class="position-fixed start-0 bottom-0 w-100 js-trl-menu" style="height: <?= isHome(198, 50) ?>px">
+   <div style="max-width: 540px" class="h-100 container px-2" >
     <?php
 
     if($_SERVER['REQUEST_URI'] == "/" || $_SERVER['REQUEST_URI'] == "/index.php") { ?>
@@ -44,7 +44,7 @@ function isHome($fv, $sv) {
       </div>
       <div class="pt-2"></div>
     <?php } ?>
-    <div class="trl-menu__list trl-bg  d-flex justify-content-around align-items-center text-center px-3">
+    <div class="trl-menu__list h-100 trl-bg  d-flex justify-content-around align-items-center text-center px-3">
       <a class="trl-menu__item py-1 " href="/rules.php">
         <img src="/assets/img/rules.png" alt="">
         <span class="lh-0 mt-1 d-block">Правила</span>
@@ -60,7 +60,7 @@ function isHome($fv, $sv) {
       </a>
       <a class="trl-menu__item py-1 " href="/">
         <img src="/assets/img/game.png" alt="">
-        <span class="lh-1 mt-1 d-block">Игра</span>
+        <span class="lh-0 mt-1 d-block">Игра</span>
       </a>
       <a class="trl-menu__item py-1 " href="/methods-payoff.php">
         <img src="/assets/img/gifts.png" alt="">

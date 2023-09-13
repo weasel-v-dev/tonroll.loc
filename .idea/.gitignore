@@ -6,3 +6,7 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+/deployment.xml
+/sshConfigs.xml
+/vcs.xml
+/webServers.xml

@@ -1,4 +1,5 @@
-<?php include 'header.php' ?>
+<?php include 'header.php';
+?>
 <div class="p-2 trl-bg mt-2 rounded-5 ">
     <h1 class="mb-0 font-18 text-uppercase text-center text-uppercase fw-bold trl-montserrat">Реферальная програма
     </h1>
@@ -22,8 +23,9 @@
       </div>
      </div>
 </div>
-<div class="p-2 trl-bg mt-2 rounded-5 ">
-    <table class="table text-light mb-0" style="border-collapse:separate;
+<div class="p-2 trl-bg mt-2 rounded-5 ref" style="    overflow: auto;
+    height: calc(100vh - 304px);">
+    <table class="table text-light mb-0 " style="border-collapse:separate;
   border-spacing: 0 5px;">
         <thead>
             <tr>
@@ -34,206 +36,12 @@
             </tr>
         </thead>
         <tbody>
-            <tr class="pag trl-player-bet rounded-5  trl-bg-light-2">
-                <td class="border-0">
-                  <div class="d-flex">
-                    <div class="me-1  rounded-3">
-                      <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
-                    </div>
-                    <div class="me-2">
-                      <div  style="width: 50px">Дмитрий</div>
-                      <div>100 000</div>
-                    </div>
-                  </div>
-                </td>
-                <td class="border-0">
-                  <div class="text-center"><span  class="trl-gr-green lh-1 p-1 d-inline-block rounded-3">1200</span></div>
-                </td>
-                <td class="border-0">
-                  <div class="text-center"><span  class="trl-gr-blue lh-1 p-1 d-inline-block rounded-3">145</span></div>
-                </td>
-                <td class="border-0">
-                  <div class="text-center"><span  class="trl-gr-yellow lh-1 p-1 d-inline-block rounded-3">14.01.2023 12:22:57</span></div>
-                </td>
-            </tr>
-            <tr class="pag trl-player-bet rounded-5  trl-bg-light-2 ">
-                <td class="border-0">
-                  <div class="d-flex">
-                    <div class="me-1  rounded-3">
-                      <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
-                    </div>
-                    <div class="me-2">
-                      <div  style="width: 50px">Дмитрий</div>
-                      <div>100 000</div>
-                    </div>
-                  </div>
-                </td>
-                <td class="border-0">
-                  <div class="text-center"><span  class="trl-gr-green lh-1 p-1 d-inline-block rounded-3">1200</span></div>
-                </td>
-                <td class="border-0">
-                  <div class="text-center"><span  class="trl-gr-blue lh-1 p-1 d-inline-block rounded-3">145</span></div>
-                </td>
-                <td class="border-0">
-                  <div class="text-center"><span  class="trl-gr-yellow lh-1 p-1 d-inline-block rounded-3">14.01.2023 12:22:57</span></div>
-                </td>
-            </tr>
-            <tr class="pag trl-player-bet rounded-5  trl-bg-light-2 ">
-                <td class="border-0">
-                  <div class="d-flex">
-                    <div class="me-1  rounded-3">
-                      <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
-                    </div>
-                    <div class="me-2">
-                      <div  style="width: 50px">Дмитрий</div>
-                      <div>100 000</div>
-                    </div>
-                  </div>
-                </td>
-                <td class="border-0">
-                  <div class="text-center"><span  class="trl-gr-green lh-1 p-1 d-inline-block rounded-3">1200</span></div>
-                </td>
-                <td class="border-0">
-                  <div class="text-center"><span  class="trl-gr-blue lh-1 p-1 d-inline-block rounded-3">145</span></div>
-                </td>
-                <td class="border-0">
-                  <div class="text-center"><span  class="trl-gr-yellow lh-1 p-1 d-inline-block rounded-3">14.01.2023 12:22:57</span></div>
-                </td>
-            </tr>
-            <tr class="pag trl-player-bet rounded-5  trl-bg-light-2">
-              <td class="border-0">
-                <div class="d-flex">
-                  <div class="me-1  rounded-3">
-                    <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
-                  </div>
-                  <div class="me-2">
-                    <div  style="width: 50px">Дмитрий</div>
-                    <div>100 000</div>
-                  </div>
-                </div>
-              </td>
-              <td class="border-0">
-                <div class="text-center"><span  class="trl-gr-green lh-1 p-1 d-inline-block rounded-3">1200</span></div>
-              </td>
-              <td class="border-0">
-                <div class="text-center"><span  class="trl-gr-blue lh-1 p-1 d-inline-block rounded-3">145</span></div>
-              </td>
-              <td class="border-0">
-                <div class="text-center"><span  class="trl-gr-yellow lh-1 p-1 d-inline-block rounded-3">14.01.2023 12:22:57</span></div>
-              </td>
-            </tr>
-            <tr class="pag trl-player-bet rounded-5  trl-bg-light-2 ">
-              <td class="border-0">
-                <div class="d-flex">
-                  <div class="me-1  rounded-3">
-                    <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
-                  </div>
-                  <div class="me-2">
-                    <div  style="width: 50px">Дмитрий</div>
-                    <div>100 000</div>
-                  </div>
-                </div>
-              </td>
-              <td class="border-0">
-                <div class="text-center"><span  class="trl-gr-green lh-1 p-1 d-inline-block rounded-3">1200</span></div>
-              </td>
-              <td class="border-0">
-                <div class="text-center"><span  class="trl-gr-blue lh-1 p-1 d-inline-block rounded-3">145</span></div>
-              </td>
-              <td class="border-0">
-                <div class="text-center"><span  class="trl-gr-yellow lh-1 p-1 d-inline-block rounded-3">14.01.2023 12:22:57</span></div>
-              </td>
-            </tr>
-            <tr class="pag trl-player-bet rounded-5  trl-bg-light-2 ">
-              <td class="border-0">
-                <div class="d-flex">
-                  <div class="me-1  rounded-3">
-                    <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
-                  </div>
-                  <div class="me-2">
-                    <div  style="width: 50px">Дмитрий</div>
-                    <div>100 000</div>
-                  </div>
-                </div>
-              </td>
-              <td class="border-0">
-                <div class="text-center"><span  class="trl-gr-green lh-1 p-1 d-inline-block rounded-3">1200</span></div>
-              </td>
-              <td class="border-0">
-                <div class="text-center"><span  class="trl-gr-blue lh-1 p-1 d-inline-block rounded-3">145</span></div>
-              </td>
-              <td class="border-0">
-                <div class="text-center"><span  class="trl-gr-yellow lh-1 p-1 d-inline-block rounded-3">14.01.2023 12:22:57</span></div>
-              </td>
-            </tr>
-            <tr class="pag trl-player-bet rounded-5  trl-bg-light-2">
-              <td class="border-0">
-                <div class="d-flex">
-                  <div class="me-1  rounded-3">
-                    <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
-                  </div>
-                  <div class="me-2">
-                    <div  style="width: 50px">Дмитрий</div>
-                    <div>100 000</div>
-                  </div>
-                </div>
-              </td>
-              <td class="border-0">
-                <div class="text-center"><span  class="trl-gr-green lh-1 p-1 d-inline-block rounded-3">1200</span></div>
-              </td>
-              <td class="border-0">
-                <div class="text-center"><span  class="trl-gr-blue lh-1 p-1 d-inline-block rounded-3">145</span></div>
-              </td>
-              <td class="border-0">
-                <div class="text-center"><span  class="trl-gr-yellow lh-1 p-1 d-inline-block rounded-3">14.01.2023 12:22:57</span></div>
-              </td>
-            </tr>
-            <tr class="pag trl-player-bet rounded-5  trl-bg-light-2 ">
-              <td class="border-0">
-                <div class="d-flex">
-                  <div class="me-1  rounded-3">
-                    <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
-                  </div>
-                  <div class="me-2">
-                    <div  style="width: 50px">Дмитрий</div>
-                    <div>100 000</div>
-                  </div>
-                </div>
-              </td>
-              <td class="border-0">
-                <div class="text-center"><span  class="trl-gr-green lh-1 p-1 d-inline-block rounded-3">1200</span></div>
-              </td>
-              <td class="border-0">
-                <div class="text-center"><span  class="trl-gr-blue lh-1 p-1 d-inline-block rounded-3">145</span></div>
-              </td>
-              <td class="border-0">
-                <div class="text-center"><span  class="trl-gr-yellow lh-1 p-1 d-inline-block rounded-3">14.01.2023 12:22:57</span></div>
-              </td>
-            </tr>
-            <tr class="pag trl-player-bet rounded-5  trl-bg-light-2 ">
-              <td class="border-0">
-                <div class="d-flex">
-                  <div class="me-1  rounded-3">
-                    <img src="/assets/img/plug/avatar.png" class="trl-player-bet__avatar" alt="">
-                  </div>
-                  <div class="me-2">
-                    <div  style="width: 50px">Дмитрий</div>
-                    <div>100 000</div>
-                  </div>
-                </div>
-              </td>
-              <td class="border-0">
-                <div class="text-center"><span  class="trl-gr-green lh-1 p-1 d-inline-block rounded-3">1200</span></div>
-              </td>
-              <td class="border-0">
-                <div class="text-center"><span  class="trl-gr-blue lh-1 p-1 d-inline-block rounded-3">145</span></div>
-              </td>
-              <td class="border-0">
-                <div class="text-center"><span  class="trl-gr-yellow lh-1 p-1 d-inline-block rounded-3">14.01.2023 12:22:57</span></div>
-              </td>
-            </tr>
         </tbody>
     </table>
-</div>
+  <div class="text-center">
+    <div class="pagination-controls"></div>
+  </div>
 
+</div>
+<script src="/assets/js/ref.js"></script>
 <?php include 'footer.php';

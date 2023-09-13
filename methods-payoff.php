@@ -10,25 +10,25 @@
           <a class="payments__item d-block" href="/payoff.php"
              style="background-image: url('/assets/img/methods/tether.png')">
           </a>
-          <a href="/charge-on.php" class="d-block mt-2 trl-bg-light-2 py-1 px-2 rounded-4">Tether (TRC-20)</a>
+          <a href="/payoff.php" class="d-block mt-2 trl-bg-light-2 py-1 px-2 rounded-4">Tether (TRC-20)</a>
         </div>
         <div class="col-6 mb-2">
           <a class="payments__item d-block" href="/payoff.php"
              style="background-image: url('/assets/img/methods/tynk.png')">
           </a>
-          <a href="/charge-on.php" class="d-block mt-2 trl-bg-light-2 py-1 px-2 rounded-4">Tinkoff</a>
+          <a href="/payoff.php" class="d-block mt-2 trl-bg-light-2 py-1 px-2 rounded-4">Tinkoff</a>
         </div>
         <div class="col-6">
           <a class="payments__item d-block" href="/payoff.php"
              style="background-image: url('/assets/img/methods/quiwi.png')">
           </a>
-          <a href="/charge-on.php" class="d-block mt-2 trl-bg-light-2 py-1 px-2 rounded-4">Qiwi</a>
+          <a href="/payoff.php" class="d-block mt-2 trl-bg-light-2 py-1 px-2 rounded-4">Qiwi</a>
         </div>
         <div class="col-6">
-          <a class="payments__item d-block" href="/charge-on.php"
+          <a class="payments__item d-block" href="/payoff.php"
              style="background-image: url('/assets/img/methods/tron.png')">
           </a>
-          <a href="/charge-on.php" class="d-block mt-2 trl-bg-light-2 py-1 px-2 rounded-4">Tron</a>
+          <a href="/payoff.php" class="d-block mt-2 trl-bg-light-2 py-1 px-2 rounded-4">Tron</a>
         </div>
       </div>
   </div>

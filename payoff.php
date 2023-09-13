@@ -1,6 +1,6 @@
 <?php include 'header.php' ?>
 <div class="p-2 trl-bg mt-2 rounded-5 ">
-    <h1 class="mb-0 font-18 text-center">Выплата на Tinkoff
+    <h1 class="mb-0 font-18 text-center">Выплата на USDT
     </h1>
 </div>
 <div class="p-2 trl-bg mt-2 rounded-5 text-center">
@@ -11,7 +11,7 @@
         <div>в течение 5 минут</div>
       </div>
       <div class="">
-        <img style="width: 50%;" class="img-thumbnail mb-2" src="/assets/img/methods/tynk.png" alt="">
+        <img style="width: 50%;" class="img-thumbnail mb-2" src="/assets/img/methods/tether.png" alt="">
       </div>
       <div class="font-12 mb-1">
         C выплаты удерживаеться 1.5 USDT (стоимость перевода в сети)

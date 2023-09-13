@@ -1,9 +1,9 @@
 <?php include 'header.php' ?>
 <div class="p-2 trl-bg mt-2 rounded-5 ">
-    <h1 class=" mb-0 font-18 text-center">Правила сервиса
+    <h1 class=" mb-0 font-18 text-center text-uppercase fw-bold trl-montserrat">Правила сервиса
     </h1>
 </div>
-<div class="p-2 trl-bg mt-2 rounded-5 ">
+<div class="p-2 trl-bg mt-2 rounded-5 overflow-auto rules" >
     <div  class="">
         <h2  class="font-12">1. ТЕРМИНЫ И ОПРЕДЕЛЕНИЯ.</h2>
         <p>1.1. «Аккаунт» – идентификационная запись,

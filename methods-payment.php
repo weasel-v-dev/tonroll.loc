@@ -1,6 +1,6 @@
 <?php include 'header.php' ?>
   <div class="p-2 trl-bg mt-2 rounded-5 ">
-    <h1 class=" mb-0 font-18 text-center">Пополнение баланса
+    <h1 class=" mb-0 font-18 text-center text-uppercase fw-bold trl-montserrat">Пополнение баланса
     </h1>
   </div>
   <div class="p-2 trl-bg mt-2 rounded-5 ">
@@ -23,6 +23,12 @@
              style="background-image: url('/assets/img/methods/quiwi.png')">
           </a>
           <div class="mt-2 trl-bg-light-2 py-1 px-2 rounded-4">Qiwi</div>
+        </div>
+        <div class="col-6">
+          <a class="payments__item d-block" href="/charge-on.php"
+             style="background-image: url('/assets/img/methods/tron.png')">
+          </a>
+          <div class="mt-2 trl-bg-light-2 py-1 px-2 rounded-4">Tron</div>
         </div>
       </div>
   </div>

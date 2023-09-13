@@ -78,6 +78,10 @@ button:hover {
     line-height: 1.1;
 }
 
+.trl-montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .trl-jack-pot__name {
     color: #327ae8;
 }
@@ -208,6 +212,11 @@ input::placeholder {
     width: 52px;
 }
 
+.rules {
+    height: calc(100vh - 150px);
+
+}
+
 .btn-bet {
     white-space: nowrap;
     box-shadow: 2px 2px 2px rgba(0, 0,0,0.1);
@@ -308,6 +317,9 @@ a {
     }
     .nav-item span, .trl-roll__desc {
         font-size: 12px;
+    }
+    .rules {
+        height: calc(100vh - 163px);
     }
 }
 

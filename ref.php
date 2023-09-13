@@ -1,6 +1,6 @@
 <?php include 'header.php' ?>
 <div class="p-2 trl-bg mt-2 rounded-5 ">
-    <h1 class="mb-0 font-18 text-uppercase fw-bold text-center">Реферальная програма
+    <h1 class="mb-0 font-18 text-uppercase text-center text-uppercase fw-bold trl-montserrat">Реферальная програма
     </h1>
 </div>
 <div class="p-2 trl-bg mt-2 rounded-5 ">

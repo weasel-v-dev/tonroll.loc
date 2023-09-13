@@ -10,25 +10,25 @@
           <a class="payments__item d-block" href="/charge-on.php"
              style="background-image: url('/assets/img/methods/tether.png')">
           </a>
-          <div class="mt-2 trl-bg-light-2 py-1 px-2 rounded-4">Tether (TRC-20)</div>
+          <a href="/charge-on.php" class="d-block mt-2 trl-bg-light-2 py-1 px-2 rounded-4">Tether (TRC-20)</a>
         </div>
         <div class="col-6 mb-2">
           <a class="payments__item d-block" href="/charge-on.php"
              style="background-image: url('/assets/img/methods/tynk.png')">
           </a>
-          <div class="mt-2 trl-bg-light-2 py-1 px-2 rounded-4">Tinkoff</div>
+          <a href="/charge-on.php" class="d-block mt-2 trl-bg-light-2 py-1 px-2 rounded-4">Tinkoff</a>
         </div>
         <div class="col-6">
           <a class="payments__item d-block" href="/charge-on.php"
              style="background-image: url('/assets/img/methods/quiwi.png')">
           </a>
-          <div class="mt-2 trl-bg-light-2 py-1 px-2 rounded-4">Qiwi</div>
+          <a href="/charge-on.php" class="d-block mt-2 trl-bg-light-2 py-1 px-2 rounded-4">Qiwi</a>
         </div>
         <div class="col-6">
           <a class="payments__item d-block" href="/charge-on.php"
              style="background-image: url('/assets/img/methods/tron.png')">
           </a>
-          <div class="mt-2 trl-bg-light-2 py-1 px-2 rounded-4">Tron</div>
+          <a href="/charge-on.php" class="d-block mt-2 trl-bg-light-2 py-1 px-2 rounded-4">Tron</a>
         </div>
       </div>
   </div>

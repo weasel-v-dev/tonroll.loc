@@ -62,9 +62,9 @@ button:hover {
     overflow: hidden;
 }
 
-.trl-bg-green-blue {
-    background-color: #48a1af;
-}
+/*.trl-bg-green-blue {*/
+/*    background-color: #48a1af;*/
+/*}*/
 
 .trl-color {
     color: #798998;
@@ -213,7 +213,7 @@ input::placeholder {
 }
 
 .rules {
-    height: calc(100vh - 150px);
+    height: calc(100vh - 165px);
 
 }
 
@@ -238,7 +238,7 @@ input::placeholder {
 }
 
 .trl-menu__item:hover {
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0,0,0,0.5);
 }
 
 .trl-menu__item img {
@@ -262,6 +262,7 @@ a {
 .trl-avatar img {
     height: auto;
     max-width: 100%;
+    transform: scale(2);
 }
 .trl-avatar {
     width: 42px;
@@ -319,7 +320,7 @@ a {
         font-size: 12px;
     }
     .rules {
-        height: calc(100vh - 163px);
+        height: calc(100vh - 150px);
     }
 }
 

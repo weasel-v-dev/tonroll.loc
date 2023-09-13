@@ -6,7 +6,7 @@ function isHome($fv, $sv) {
     return $sv;
 } ?>
 
-<div class="trl-menu mt-3" style="height: <?= isHome(198, 45) ?>px;" ></div>
+<div class="trl-menu" style="height: <?= isHome(198, 45) ?>px;" ></div>
 </div>
 </div>
 
@@ -44,15 +44,12 @@ function isHome($fv, $sv) {
       </div>
       <div class="pt-2"></div>
     <?php } ?>
-    <div class="trl-menu__list trl-bg  d-flex justify-content-around align-items-center justify-content-between text-center px-3">
+    <div class="trl-menu__list trl-bg  d-flex justify-content-around align-items-center text-center px-3">
       <a class="trl-menu__item py-1 " href="/rules.php">
         <img src="/assets/img/rules.png" alt="">
         <span class="lh-0 mt-1 d-block">Правила</span>
       </a>
-      <a class="trl-menu__item py-1 " href="/">
-        <img src="/assets/img/game.png" alt="">
-        <span class="lh-1 mt-1 d-block">Игра</span>
-      </a>
+
       <!--                <button class="trl-menu__item py-1 ">-->
       <!--                    <img src="/assets/img/chat.png" alt="">-->
       <!--                    <span class="lh-0 mt-1 d-block">Чат</span>-->
@@ -60,6 +57,10 @@ function isHome($fv, $sv) {
       <a class="trl-menu__item py-1 " href="/methods-payment.php">
         <img src="/assets/img/gifts.png" alt="">
         <span class="lh-0 mt-1 d-block">Оплата</span>
+      </a>
+      <a class="trl-menu__item py-1 " href="/">
+        <img src="/assets/img/game.png" alt="">
+        <span class="lh-1 mt-1 d-block">Игра</span>
       </a>
       <a class="trl-menu__item py-1 " href="/methods-payoff.php">
         <img src="/assets/img/gifts.png" alt="">

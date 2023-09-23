@@ -99,8 +99,8 @@ function displayItems(page) {
                         <img src="${prop.avatar}" class="trl-player-bet__avatar" alt="">
                     </div>
                     <div class="me-2">
-                        <div  style="width: 50px">${prop.name}</div>
-<!--                        <div>${prop.income}</div>-->
+                        <div  class="trl-player-bet__name">${prop.name}</div>
+                        <div>${prop.id}</div>
                     </div>
                 </div>
             </td>
@@ -157,3 +157,17 @@ let totalPages = Math.ceil(usersRefs.length / ITEMS_PER_PAGE);
 displayItems(currentPage);
 displayPaginationControls(currentPage, totalPages);
 
+
+/**
+ * Copy ref link
+ */
+
+function copyURL() {
+    var urlField = document.getElementById("urlInput");
+
+    urlField.select();
+    urlField.setSelectionRange(0, 99999);
+
+    document.execCommand("copy");
+}
+$('#copyBtn').on('click', copyURL);

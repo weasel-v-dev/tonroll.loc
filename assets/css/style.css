@@ -189,15 +189,25 @@ button:hover {
 
 
 .trl-player-bet__avatar {
-    width: 23px;
-    height: 23px;
+    width: 26px;
+    height: 26px;
 }
 
 .trl-player-bet__name {
     width: 75px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; /* add ... when the text overflows its container */
 }
 .font-18 {
     font-size: 18px;
+}
+.font-11 {
+    font-size: 11px;
+}
+
+.font-13 {
+    font-size: 13px;
 }
 
 input {

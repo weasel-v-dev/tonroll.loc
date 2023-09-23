@@ -91,7 +91,7 @@ function displayItems(page) {
             <div class="text-center"><span  class="trl-gr-blue lh-1 p-1 d-inline-block rounded-3">${prop.amount}</span></div>
           </td>
           <td class="border-0 text-center">
-            <div class="text-center"><span  class="trl-gr-black lh-1 p-1 d-inline-block rounded-3">${prop.card}</span></div>
+            <div class="text-center"><span  class="trl-gr-black trl-player-bet__name lh-1 p-1 d-inline-block rounded-3">${prop.card}</span></div>
           </td>
           <td class="border-0">
             <div class="text-center"><span  class="trl-gr-red lh-1 p-1 d-inline-block rounded-3">${prop.status}</span></div>

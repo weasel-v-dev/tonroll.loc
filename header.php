@@ -15,12 +15,18 @@
 
 <div class="container g-0" style="max-width: 540px">
   <div class="px-2 pt-2">
+
     <div class="d-flex justify-content-between align-items-center">
       <div class="d-flex align-items-center trl-bg rounded-4 p-1">
-        <button><img src="/assets/img/dynamic.png" class="pe-2 trl-avatar-header-icon" alt=""></button>
-        <div class="trl-separator trl-bg-light"></div>
-        <button><img src="/assets/img/i.png" class="ps-2 trl-avatar-header-icon" alt=""></button>
-        <button><img src="/assets/img/armor.png" class="ps-2 trl-avatar-header-icon" alt=""></button>
+        <?php
+        if($_SERVER['REQUEST_URI'] == "/" || $_SERVER['REQUEST_URI'] == "/index.php") { ?>
+          <button><img src="/assets/img/dynamic.png" class="pe-2 trl-avatar-header-icon" alt=""></button>
+          <div class="trl-separator trl-bg-light"></div>
+          <button><img src="/assets/img/i.png" class="ps-2 trl-avatar-header-icon" alt=""></button>
+          <button><img src="/assets/img/armor.png" class="ps-2 trl-avatar-header-icon" alt=""></button>
+        <?php } else { ?>
+          <button><img src="/assets/img/i.png" class=" trl-avatar-header-icon" alt=""></button>
+        <?php } ?>
       </div>
       <div class="trl-avatar trl-bg-green-blue d-flex justify-content-center align-items-center rounded-4">
         <img src="/assets/img/plug/avatar.png" alt="" >

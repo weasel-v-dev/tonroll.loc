@@ -31,21 +31,21 @@
   <div class="p-2 trl-bg mt-2 rounded-5 text-center">
 
     <div class="mb-2">
-      <div class="font-12">Введите карту</div>
+      <div class="font-13">Введите карту</div>
       <div class="mb-1">[Пример: 3423 2342 2343 2334]</div>
       <label class="">
         <input type="text" class="pt-1 w-100 rounded-4 text-center font-14 text-white fw-bold trl-bg-light-2">
       </label>
     </div>
     <div class="mb-2">
-      <div class="font-12">Введите суму</div>
+      <div class="font-13">Введите суму</div>
       <div class="mb-1">[Мин: 677руб.]</div>
       <label class="">
         <input type="text" class="pt-1 w-100 rounded-4 text-center font-14 text-white fw-bold trl-bg-light-2">
       </label>
     </div>
     <div class="pb-1">
-      <button type="submit" class="btn-bet lh-1 rounded-4 fw-bold text-center font-14 px-3  py-2 trl-gr-green">Пополнить</button>
+      <button type="submit" class="btn-bet lh-1 rounded-3 fw-bold text-center font-14 px-3  py-2 trl-gr-green">Пополнить</button>
     </div>
   </div>
   <div class="d-flex align-items-center mt-2">
@@ -58,11 +58,11 @@
   border-spacing: 0 5px;">
         <thead>
         <tr>
-          <th scope="col" class="border-0 p-0 text-center">ID</th>
-          <th scope="col" class="border-0 p-0 text-center">Cумма</th>
-          <th scope="col" class="border-0 p-0 text-center">Карта</th>
-          <th scope="col" class="border-0 p-0 text-center">Статус</th>
-          <th scope="col" class="border-0 p-0 text-center">Дата</th>
+          <th scope="col" class="font-14 border-0 p-0 text-center">ID</th>
+          <th scope="col" class="font-14 border-0 p-0 text-center">Cумма</th>
+          <th scope="col" class="font-14 border-0 p-0 text-center">Карта</th>
+          <th scope="col" class="font-14 border-0 p-0 text-center">Статус</th>
+          <th scope="col" class="font-14 border-0 p-0 text-center">Дата</th>
         </tr>
         </thead>
         <tbody>

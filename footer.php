@@ -13,7 +13,6 @@ function isHome($fv, $sv) {
 <div class="position-fixed start-0 bottom-0 w-100 js-trl-menu" style="height: <?= isHome(198, 50) ?>px">
    <div style="max-width: 540px" class="h-100 container px-2" >
     <?php
-
     if($_SERVER['REQUEST_URI'] == "/" || $_SERVER['REQUEST_URI'] == "/index.php") { ?>
       <div class=" trl-bg rounded-5 px-2  py-2">
         <div class="d-flex justify-content-center align-items-center">
@@ -44,7 +43,7 @@ function isHome($fv, $sv) {
       </div>
       <div class="pt-2"></div>
     <?php } ?>
-    <div class="trl-menu__list h-100 trl-bg  d-flex justify-content-around align-items-center text-center px-3">
+    <div class="trl-menu__list d-flex  h-100 trl-bg  d-flex justify-content-around align-items-center text-center px-3">
       <a class="trl-menu__item py-1 " href="/rules.php">
         <img src="/assets/img/rules.png" alt="">
         <span class="lh-0 mt-1 d-block">Правила</span>

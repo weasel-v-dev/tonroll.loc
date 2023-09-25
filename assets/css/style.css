@@ -289,6 +289,9 @@ a {
     .trl-roll__el-history {
         width: 20px;
     }
+    .font-14 {
+        font-size: 12px;
+    }
 }
 .trl-menu__list {
     border-radius: 15px 15px 0 0;

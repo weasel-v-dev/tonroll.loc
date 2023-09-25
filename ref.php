@@ -11,7 +11,6 @@
 
         <label>
               <input value="https://tonroll.loc//?go=52391" id="urlInput" placeholder="Введите суму" type="text" class="p-1 w-100 rounded-4 text-center font-14 text-white fw-bold trl-bg-light-2">
-
         </label>
       </div>
       <div class="d-flex justify-content-center">
@@ -24,8 +23,63 @@
       </div>
      </div>
 </div>
-<div class="p-2 trl-bg mt-2 rounded-5 ref" style="    overflow: auto;
-    height: calc(100vh - 304px);">
+<div class="d-flex align-items-center mt-2">
+  <div class=" fw-bold nowrap pe-2 font-14">Ваши рефералы по уровням</div>
+  <div class="trl-divider  trl-bg-white"></div>
+</div>
+<div class="p-2 trl-bg mt-2 rounded-5 ">
+  <div class="table-responsive">
+    <div class="d-flex justify-content-between text-center">
+      <div>
+        <div class="font-12 fw-bold">
+          1 Ур.
+        </div>
+        <div class="trl-divider my-1 trl-bg-white"></div>
+        <div>
+          22343 чел.
+        </div>
+      </div>
+      <div>
+        <div class="font-12 fw-bold">
+          2 Ур.
+        </div>
+        <div class="trl-divider my-1 trl-bg-white"></div>
+        <div>
+          20000 чел.
+        </div>
+      </div>
+      <div>
+        <div class="font-12 fw-bold">
+          3 Ур.
+        </div>
+        <div class="trl-divider my-1 trl-bg-white"></div>
+        <div>
+          1000 чел.
+        </div>
+      </div>
+      <div>
+        <div class="font-12 fw-bold">
+          4 Ур.
+        </div>
+        <div class="trl-divider my-1 trl-bg-white"></div>
+        <div>
+          56600 чел.
+        </div>
+      </div>
+      <div>
+        <div class="font-12 fw-bold">
+          5 Ур.
+        </div>
+        <div class="trl-divider my-1 trl-bg-white"></div>
+        <div>
+          33600 чел.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="p-2 trl-bg mt-2 rounded-5 ref">
+  <div class="table-responsive">
     <table class="table text-light mb-0 " style="border-collapse:separate;
   border-spacing: 0 5px;">
         <thead>
@@ -39,6 +93,7 @@
         <tbody>
         </tbody>
     </table>
+  </div>
   <div class="text-center">
     <div class="pagination-controls"></div>
   </div>

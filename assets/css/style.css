@@ -382,3 +382,6 @@ a {
 .fix-text {
     word-break: break-word;
 }
+td {
+    vertical-align: middle;
+}

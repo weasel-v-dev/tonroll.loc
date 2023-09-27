@@ -94,7 +94,7 @@ function displayItems(page) {
     itemsToDisplay.forEach(function (prop) {
         $usersRefs += `<tr class="trl-player-bet rounded-5  trl-bg-light-2 ">
             <td class="border-0">
-                <div class="d-flex">
+                <div class="d-flex align-items-center">
                     <div class="me-1  rounded-3">
                         <img src="${prop.avatar}" class="trl-player-bet__avatar" alt="">
                     </div>

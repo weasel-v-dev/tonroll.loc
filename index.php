@@ -11,31 +11,7 @@
 </div>
 <div class="trl-roll p-2 trl-bg mt-2 rounded-5 position-relative">
     <img class="position-absolute translate-middle start-50 top-0 " src="/assets/img/pointer.png" width="15px" height="15px">
-    <div class="trl-roll__list">
-        <div class="trl-roll__el-wrap">
-            <div class="trl-roll__el trl-gr-green rounded-5"></div>
-        </div>
-        <div class="trl-roll__el-wrap">
-            <div class="trl-roll__el trl-gr-blue rounded-5"></div>
-        </div>
-        <div class="trl-roll__el-wrap">
-            <div class="trl-roll__el trl-gr-red rounded-5"></div>
-        </div>
-        <div class="trl-roll__el-wrap">
-            <div class="trl-roll__el trl-gr-red rounded-5"></div>
-        </div>
-        <div class="trl-roll__el-wrap">
-            <div class="trl-roll__el trl-gr-red rounded-5"></div>
-        </div>
-        <div class="trl-roll__el-wrap">
-            <div class="trl-roll__el trl-gr-red rounded-5"></div>
-        </div>
-        <div class="trl-roll__el-wrap">
-            <div class="trl-roll__el trl-gr-red rounded-5"></div>
-        </div>
-        <div class="trl-roll__el-wrap">
-            <div class="trl-roll__el trl-gr-red rounded-5"></div>
-        </div>
+    <div id="scroll-list" class="trl-roll__list">
     </div>
     <div class="d-flex mt-2 justify-content-between">
         <div class="trl-roll__desc me-2 fw-bold font-14" style="margin-bottom: -2px">История игр:</div>

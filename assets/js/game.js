@@ -16,10 +16,6 @@ $(document).ready(function() {
 
 const $scrollList = $('#scroll-list');
 
-function getClassColor(className) {
-    return ;
-}
-
 function getRandomClass() {
     const classes = [{code: 'green', name: 'зеленый'}, {code: 'red', name: 'красный'}, {code: 'blue', name: 'синий'}, {code: 'yellow', name: 'желтый'}];
     const randomIndex = Math.floor(Math.random() * classes.length);
@@ -35,7 +31,15 @@ function addElements(num) {
 
 addElements(500);
 
+function offBtn(turn) {
+    $('button').each(function () {
+        $(this).attr('disabled', turn);
+    })
+}
+
 function startGame(selectedColor) {
+    offBtn(true);
+
     const maxScroll = $scrollList.get(0).scrollWidth - $scrollList.width();
     const randomStop = Math.floor(Math.random() * maxScroll);
     let scrollSpeed = randomStop < 1000 ? 1000 : randomStop < 15000 ? 5000 : 28000;
@@ -66,6 +70,8 @@ function startGame(selectedColor) {
                 showModal('Поражение. Цвет дожен был быть ' + winningElement.data('color-name'));
             }
         }
+
+        offBtn(false);
     });
 }
 

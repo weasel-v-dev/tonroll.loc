@@ -182,15 +182,6 @@ $(document).ready(function() {
 
         $usersBet.val(currentVal);
     }
-
-
-    function getUsersBet() {
-
-
-        function max() {
-
-        }
-    }
 });
 
 

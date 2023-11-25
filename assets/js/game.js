@@ -12,6 +12,12 @@ $(document).ready(function() {
     $('#bet-blue').click(function() {
         startGame($(this));
     });
+    $('#bet-orange').click(function() {
+        startGame($(this));
+    });
+    $('#bet-purple').click(function() {
+        startGame($(this));
+    });
 
     $('#users-bet-decrease').click(function() {
         updateUsersBet('min');

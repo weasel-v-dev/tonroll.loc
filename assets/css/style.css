@@ -181,14 +181,13 @@ button:hover {
     display: none;
 }
 
-.trl-progressbar {
-    border: 2px solid #1b3352;
-    height: 24px;
-}
-.trl-progressbar__filled {
-    height: 100%;
-
-}
+/*.trl-progressbar {*/
+/*    border: 2px solid #1b3352;*/
+/*    height: 24px;*/
+/*}*/
+/*.trl-progressbar__filled {*/
+/*    height: 100%;*/
+/*}*/
 
 .trl-divider {
     height: 1px;
@@ -201,17 +200,17 @@ button:hover {
 
 
 
-.trl-player-bet__avatar {
-    width: 26px;
-    height: 26px;
-}
+/*.trl-player-bet__avatar {*/
+/*    width: 26px;*/
+/*    height: 26px;*/
+/*}*/
 
-.trl-player-bet__name {
-    width: 75px;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis; /* add ... when the text overflows its container */
-}
+/*.trl-player-bet__name {*/
+/*    width: 75px;*/
+/*    overflow: hidden;*/
+/*    white-space: nowrap;*/
+/*    text-overflow: ellipsis; !* add ... when the text overflows its container *!*/
+/*}*/
 .font-18 {
     font-size: 18px;
 }

@@ -15,41 +15,48 @@ function isHome($fv, $sv)
     <div style="max-width: 540px" class="h-100 container px-2">
         <?php
         if ($_SERVER['REQUEST_URI'] == "/" || $_SERVER['REQUEST_URI'] == "/index.php") { ?>
-            <div class=" trl-bg rounded-5 px-2  py-2">
-                <div class="d-flex justify-content-center align-items-center">
-                    <div>
-                        <button class="small-btn rounded-4 py-1 fw-bold trl-bg-light-2 font-18">Min</button>
-                    </div>
-                    <div class="mx-1">
-                        <button class="small-btn rounded-4 py-1 fw-bold trl-bg-light-2 font-18">1/2</button>
-                    </div>
-                    <label class="">
-                        <input type="text"
-                               class="pt-1 w-100 rounded-4 text-center font-22 text-uppercase text-white fw-bold trl-bg-light-2">
-                    </label>
-                    <div class="mx-1">
-                        <button class="small-btn rounded-4 py-1 fw-bold trl-bg-light-2 font-18">X2</button>
-                    </div>
-                    <div>
-                        <button class="small-btn rounded-4 py-1 fw-bold trl-bg-light-2 font-18">Max</button>
-                    </div>
+            <div class=" trl-bg rounded-5 position-relative">
+                <div  id="resultModal"  class="modal-content rounded-5" style="display:none">
+                    <!--        <span class="close" style="color: white; float: right; font-size: 28px; font-weight: bold;">&times;</span>-->
+                    <p id="resultText"></p>
                 </div>
-                <div class="d-flex mt-2 ">
-                    <button id="bet-blue" data-color-code="blue" data-color-name="Синий" class="btn-bet lh-1  me-2 rounded-4 fw-bold text-center font-20 px-3 py-2 w-50 trl-gr-blue">
-                        Bet x2
-                    </button>
-                    <button id="bet-red" data-color-code="red" data-color-name="Красный" class="btn-bet lh-1  rounded-4 fw-bold text-center font-20 px-3 py-2 w-50 trl-gr-red">Bet
-                        x2
-                    </button>
-                </div>
-                <div class="d-flex mt-2">
-                    <button id="bet-yellow" data-color-code="yellow" data-color-name="Желтый"
-                        class="btn-bet lh-1 rounded-4 me-2 fw-bold text-center font-20 px-3 py-2 w-50 trl-gr-yellow">Bet
-                        x2
-                    </button>
-                    <button id="bet-green" data-color-code="green" data-color-name="Зеленый" class="btn-bet lh-1 rounded-4 fw-bold text-center font-20 px-3 py-2 w-50 trl-gr-green">Bet
-                        x2
-                    </button>
+                <div class="p-2">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <div>
+                            <button id="users-bet-decrease" class="small-btn rounded-4 py-1 fw-bold trl-bg-light-2 font-18">Min</button>
+                        </div>
+                        <div class="mx-1">
+                            <button id="users-bet-double-decrease" class="small-btn rounded-4 py-1 fw-bold trl-bg-light-2 font-18">1/2</button>
+                        </div>
+                        <label class="">
+                            <input type="text"
+                                   id="users-bet"
+                                   class="pt-1 w-100 rounded-4 text-center font-22 text-uppercase text-white fw-bold trl-bg-light-2">
+                        </label>
+                        <div class="mx-1">
+                            <button id="users-bet-double-increase" class="small-btn rounded-4 py-1 fw-bold trl-bg-light-2 font-18">X2</button>
+                        </div>
+                        <div>
+                            <button id="users-bet-increase" class="small-btn rounded-4 py-1 fw-bold trl-bg-light-2 font-18">Max</button>
+                        </div>
+                    </div>
+                    <div class="d-flex mt-2 ">
+                        <button id="bet-blue" data-color-code="blue" data-color-name="Синий" class="btn-bet lh-1  me-2 rounded-4 fw-bold text-center font-20 px-3 py-2 w-50 trl-gr-blue">
+                            Bet x2
+                        </button>
+                        <button id="bet-red" data-color-code="red" data-color-name="Красный" class="btn-bet lh-1  rounded-4 fw-bold text-center font-20 px-3 py-2 w-50 trl-gr-red">Bet
+                            x2
+                        </button>
+                    </div>
+                    <div class="d-flex mt-2">
+                        <button id="bet-yellow" data-color-code="yellow" data-color-name="Желтый"
+                                class="btn-bet lh-1 rounded-4 me-2 fw-bold text-center font-20 px-3 py-2 w-50 trl-gr-yellow">Bet
+                            x2
+                        </button>
+                        <button id="bet-green" data-color-code="green" data-color-name="Зеленый" class="btn-bet lh-1 rounded-4 fw-bold text-center font-20 px-3 py-2 w-50 trl-gr-green">Bet
+                            x2
+                        </button>
+                    </div>
                 </div>
             </div>
             <div class="pt-2"></div>
@@ -86,12 +93,6 @@ function isHome($fv, $sv)
                 <span class="lh-0 mt-1 d-block">Рефералы</span>
             </a>
         </div>
-    </div>
-</div>
-<div id="resultModal" style="display:none;" class="modal">
-    <div class="modal-content">
-<!--        <span class="close" style="color: white; float: right; font-size: 28px; font-weight: bold;">&times;</span>-->
-        <p id="resultText"></p>
     </div>
 </div>
 <script src="/libs/bootstrap.min.js"></script>

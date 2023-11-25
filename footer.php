@@ -43,28 +43,28 @@ function isHome($fv, $sv)
                     </div>
                     <div class="d-flex mt-2 ">
                         <button id="bet-red" data-color-code="red" data-color-name="Красный" class="btn-bet lh-1 me-2 rounded-4 fw-bold text-center font-20 px-3 py-2 w-50 trl-gr-red">
-                            Сделать ставку
+                           Ставка X2
                         </button>
                         <button id="bet-green" data-color-code="green" data-color-name="Зеленый" class="btn-bet lh-1 rounded-4 fw-bold text-center font-20 px-3 py-2 w-50 trl-gr-green">
-                            Сделать ставку
+                            Ставка X2
                         </button>
                     </div>
                     <div class="d-flex mt-2">
                         <button id="bet-blue" data-color-code="blue" data-color-name="Синий" class="btn-bet lh-1  me-2 rounded-4 fw-bold text-center font-20 px-3 py-2 w-50 trl-gr-blue">
-                            Сделать ставку
+                            Ставка X2
                         </button>
                         <button id="bet-yellow" data-color-code="yellow" data-color-name="Желтый"
                                 class="btn-bet lh-1 rounded-4 fw-bold text-center font-20 px-3 py-2 w-50 trl-gr-yellow">
-                            Сделать ставку
+                            Ставка X2
                         </button>
                     </div>
                     <div class="d-flex mt-2">
                         <button id="bet-orange" data-color-code="orange" data-color-name="Оранжевый"
                                 class="btn-bet lh-1 rounded-4 me-2 fw-bold text-center font-20 px-3 py-2 w-50 trl-gr-orange">
-                            Сделать ставку
+                            Ставка x2
                         </button>
                         <button id="bet-purple" data-color-code="purple" data-color-name="Фиолетовый" class="btn-bet lh-1 rounded-4 fw-bold text-center font-20 px-3 py-2 w-50 trl-gr-purple">
-                            Сделать ставку
+                            Ставка x2
                         </button>
                     </div>
                 </div>

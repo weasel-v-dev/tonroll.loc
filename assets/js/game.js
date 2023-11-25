@@ -154,7 +154,7 @@ $(document).ready(function() {
             $("#resultModal").fadeOut();
         });
         function offBtn(turn) {
-            $('button').each(function () {
+            $('.btn-bet').each(function () {
                 $(this).attr('disabled', turn);
             })
         }

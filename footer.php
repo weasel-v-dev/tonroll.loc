@@ -31,6 +31,7 @@ function isHome($fv, $sv)
                         <label class="">
                             <input type="text"
                                    id="users-bet"
+                                   value="0.01"
                                    class="pt-1 w-100 rounded-4 text-center font-22 text-uppercase text-white fw-bold trl-bg-light-2">
                         </label>
                         <div class="mx-1">

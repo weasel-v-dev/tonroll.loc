@@ -17,10 +17,10 @@ $(document).ready(function() {
         updateUsersBet('min');
     });
     $('#users-bet-double-decrease').click(function() {
-        updateUsersBet('doubleMin');
+        updateUsersBet('doubleDec');
     });
     $('#users-bet-double-increase').click(function() {
-        updateUsersBet('doubleMax');
+        updateUsersBet('doubleInc');
     });
     $('#users-bet-increase').click(function() {
         updateUsersBet('max');
@@ -127,9 +127,6 @@ $(document).ready(function() {
                 `;
             }
 
-
-
-
             $("#resultText").html(html);
             $("#resultModal").fadeIn();
 
@@ -151,26 +148,27 @@ $(document).ready(function() {
     function updateUsersBet(action) {
         let currentVal = parseFloat($usersBet.val());
         console.log('start')
-        if(isNaN(currentVal)) {
-            console.log('isntNaN')
+        if(isNaN(currentVal) || currentVal <= 0) {
+            console.log('Invalid bet value. Please enter a number greater than zero.');
             $usersBet.val(currentVal = 0.00);
+            return;
         }
 
         switch(action) {
             case 'min': {
-                currentVal = currentVal - 1;
+                currentVal = 0.01;
                 break;
             }
             case 'max': {
-                currentVal = currentVal + 1;
+                currentVal = 100000;
                 break;
             }
-            case 'doubleMax': {
+            case 'doubleInc': {
                 currentVal = currentVal * 2;
                 break;
             }
-            case 'doubleMin': {
-                currentVal = currentVal / 2;
+            case 'doubleDec': {
+                currentVal = Math.max(0, currentVal / 2);
                 break;
             }
             default: {

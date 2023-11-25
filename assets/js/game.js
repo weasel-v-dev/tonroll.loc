@@ -37,7 +37,14 @@ $(document).ready(function() {
     addElements(500);
 
     function getRandomClass() {
-        const classes = [{code: 'green', name: 'зеленый'}, {code: 'red', name: 'красный'}, {code: 'blue', name: 'синий'}, {code: 'yellow', name: 'желтый'}];
+        const classes = [
+            {code: 'green', name: 'зеленый'},
+            {code: 'red', name: 'красный'},
+            {code: 'blue', name: 'синий'},
+            {code: 'orange', name: 'оранжевый'},
+            {code: 'purple', name: 'фиолетовый'},
+            {code: 'yellow', name: 'желтый'}
+        ];
         const randomIndex = Math.floor(Math.random() * classes.length);
         return classes[randomIndex];
     }
@@ -50,6 +57,8 @@ $(document).ready(function() {
     }
 
     function startGame(selectedColor) {
+        updateUsersBet();
+
         offBtn(true);
 
         const maxScroll = $scrollList.get(0).scrollWidth - $scrollList.width();
@@ -102,8 +111,8 @@ $(document).ready(function() {
                 $('.modal-content').removeClass('modal-content--fail');
 
                 html = `
-                <h6>Поздравляем!</h6>
-                <h3> Выигрыш: <b>${order.amount}</b></h3>
+                    <h6>Поздравляем!</h6>
+                    <h3> Выигрыш: <b>${order.amount}</b></h3>
                 `;
             }
             else if(status == 'bet') {
@@ -111,9 +120,9 @@ $(document).ready(function() {
                 $('.modal-content').removeClass('modal-content--fail');
 
                 html = `
-                <h6>Ставка</h6>
-                <h3><b>${order.amount}</b></h3>
-                <h6>На <b>${order.color} цвет</b></h6>
+                    <h6>Ставка</h6>
+                    <h3><b>${order.amount}</b></h3>
+                    <h6>На <b>${order.color} цвет</b></h6>
                 `;
             }
             else {
@@ -121,9 +130,9 @@ $(document).ready(function() {
                 $('.modal-content').removeClass('modal-content--win');
 
                 html = `
-                <h6>Проигрыш</h6>
-                 <h3><b>${order.amount}</b></h3>
-                <h6>Цвет выпал: <b>${order.color}</b></h6>
+                    <h6>Проигрыш</h6>
+                    <h3><b>${order.amount}</b></h3>
+                    <h6>Цвет выпал: <b>${order.color}</b></h6>
                 `;
             }
 
@@ -145,12 +154,12 @@ $(document).ready(function() {
         }
     }
 
-    function updateUsersBet(action) {
+    function updateUsersBet(action = false) {
         let currentVal = parseFloat($usersBet.val());
-        console.log('start')
+
         if(isNaN(currentVal) || currentVal <= 0) {
             console.log('Invalid bet value. Please enter a number greater than zero.');
-            $usersBet.val(currentVal = 0.00);
+            $usersBet.val(currentVal = 0.01);
             return;
         }
 
@@ -170,9 +179,6 @@ $(document).ready(function() {
             case 'doubleDec': {
                 currentVal = Math.max(0, currentVal / 2);
                 break;
-            }
-            default: {
-                console.log('Invalid action');
             }
         }
 

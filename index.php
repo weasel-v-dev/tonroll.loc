@@ -54,7 +54,7 @@
 
         <div class="d-flex">
             <label style="max-width: 300px" class="w-100" >
-                <input value="g87fdg67fd6g87df6gdg78fdg6fd87gf" id="urlInput"  type="text" class="p-1 w-100 rounded-4 text-center font-14 text-white fw-bold trl-bg-light-2">
+                <input value="g87fdg67fd6g87df6gdg78fdg6fd87gf" id="urlInput"  type="text" class="p-1 w-100 rounded-4 font-14 text-white fw-bold trl-bg-light-2">
             </label>
             <div class="ms-3">
                 <button type="submit" id="copyBtn" class="btn-bet lh-1 rounded-3 fw-bold text-center font-14 px-3  py-2 trl-gr-green">Скопировать</button>

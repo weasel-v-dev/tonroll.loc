@@ -47,7 +47,21 @@
 <!--        </button>-->
 <!--    </li>-->
 <!--</ul>-->
-<!--<div class="tab-content" id="pills-tabContent">-->
+<h2 class="p-2 nowrap font-14 mb-0">Контроль чесности</h2>
+
+    <div class="trl-bg js-trl-table rounded-5 py-2 px-2  trl-players-bets__list overflow-auto">
+        <p class="font-13 mb-2">Уникальный код для проверки чесности игры. <a href="#" class="trl-color-green">Как это работает?</a></p>
+
+        <div class="d-flex">
+            <label style="max-width: 300px" class="w-100" >
+                <input value="g87fdg67fd6g87df6gdg78fdg6fd87gf" id="urlInput"  type="text" class="p-1 w-100 rounded-4 text-center font-14 text-white fw-bold trl-bg-light-2">
+            </label>
+            <div class="ms-3">
+                <button type="submit" id="copyBtn" class="btn-bet lh-1 rounded-3 fw-bold text-center font-14 px-3  py-2 trl-gr-green">Скопировать</button>
+            </div>
+        </div>
+    </div>
+<div class="tab-content" id="pills-tabContent">
 <!--    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">-->
 <!--        <div class="trl-bg js-trl-table rounded-5 py-2 px-2 d-flex  justify-content-center trl-players-bets__list overflow-auto"-->
 <!--             style="min-height: 103px;height: calc(100vh - 505px)">-->

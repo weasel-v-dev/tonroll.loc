@@ -10,7 +10,7 @@
         <p class="font-13">Ваша уникальная ссылка <wbr> для приглашения друзей (рефералов):</p>
 
         <label>
-              <input value="https://tonroll.loc//?go=52391" id="urlInput" placeholder="Введите суму" type="text" class="p-1 w-100 rounded-4 text-center font-14 text-white fw-bold trl-bg-light-2">
+              <input value="https://tonroll.loc//?go=52391" id="urlInput" type="text" class="p-1 w-100 rounded-4 text-center font-14 text-white fw-bold trl-bg-light-2">
         </label>
       </div>
       <div class="d-flex justify-content-center">

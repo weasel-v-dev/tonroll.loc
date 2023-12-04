@@ -12,12 +12,6 @@ $(document).ready(function() {
     $('#bet-blue').click(function() {
         startGame($(this));
     });
-    $('#bet-orange').click(function() {
-        startGame($(this));
-    });
-    $('#bet-purple').click(function() {
-        startGame($(this));
-    });
 
     $('#users-bet-decrease').click(function() {
         updateUsersBet('min');
@@ -47,8 +41,6 @@ $(document).ready(function() {
             {code: 'green', name: 'зеленый'},
             {code: 'red', name: 'красный'},
             {code: 'blue', name: 'синий'},
-            {code: 'orange', name: 'оранжевый'},
-            {code: 'purple', name: 'фиолетовый'},
             {code: 'yellow', name: 'желтый'}
         ];
         const randomIndex = Math.floor(Math.random() * classes.length);
@@ -190,6 +182,8 @@ $(document).ready(function() {
 
         if(!Number.isInteger(currentVal)) {
             currentVal = currentVal.toFixed(2);
+
+
         }
 
         $usersBet.val(currentVal);

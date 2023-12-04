@@ -7,11 +7,11 @@ function isHome($fv, $sv)
     return $sv;
 } ?>
 
-<div class="trl-menu mt-3" style="height: <?= isHome(248, 54) ?>px;"></div>
+<div class="trl-menu mt-3" style="height: <?= isHome(198, 45) ?>px;"></div>
 </div>
 </div>
 
-<div class="position-fixed start-0 bottom-0 w-100 js-trl-menu" style="height: <?= isHome(248, 54) ?>px">
+<div class="position-fixed start-0 bottom-0 w-100 js-trl-menu" style="height: <?= isHome(198, 50) ?>px">
     <div style="max-width: 540px" class="h-100 container px-2">
         <?php
         if ($_SERVER['REQUEST_URI'] == "/" || $_SERVER['REQUEST_URI'] == "/index.php") { ?>
@@ -55,15 +55,6 @@ function isHome($fv, $sv)
                         </button>
                         <button id="bet-yellow" data-color-code="yellow" data-color-name="Желтый"
                                 class="btn-bet lh-1 rounded-4 fw-bold text-center font-20 px-3 py-2 w-50 trl-gr-yellow">Bet
-                            x2
-                        </button>
-                    </div>
-                    <div class="d-flex mt-2">
-                        <button id="bet-orange" data-color-code="orange" data-color-name="Оранжевый"
-                                class="btn-bet lh-1 rounded-4 me-2 fw-bold text-center font-20 px-3 py-2 w-50 trl-gr-orange">Bet
-                            x2
-                        </button>
-                        <button id="bet-purple" data-color-code="purple" data-color-name="Фиолетовый" class="btn-bet lh-1 rounded-4 fw-bold text-center font-20 px-3 py-2 w-50 trl-gr-purple">Bet
                             x2
                         </button>
                     </div>
